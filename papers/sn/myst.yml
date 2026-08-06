@@ -1,0 +1,40 @@
+version: 1
+extends:
+  - ../../morganton2026.yml
+project:
+  id: morganton-2026-sn
+  thumbnail: "images/fig2.png"
+  # Supplementary material is kept in the repo but excluded from MyST page
+  # discovery — without this, the two .ipynb files build as extra article pages.
+  exclude:
+    - Code Used/**
+    - Data/**
+  title: >-
+    Comparative Evaluation of Neural Network Compression Techniques Across Cloud
+    GPU, NPU, and CPU Platforms
+  authors:
+    - name: Harri SN
+      email: sn27h@ncssm.edu
+      orcid: 0009-0005-4025-8596
+      affiliation: ncssm
+  abbreviations:
+    NCSSM: North Carolina School of Science and Mathematics
+    GPU: graphics processing unit
+    NPU: neural processing unit
+    CPU: central processing unit
+    CNN: convolutional neural network
+    INT8: 8-bit integer
+    FP32: 32-bit floating point
+    FP16: 16-bit floating point
+    AI: artificial intelligence
+    MNIST: Modified National Institute of Standards and Technology
+    CIFAR-10: Canadian Institute for Advanced Research 10-class dataset
+    API: application programming interface
+    RAM: random-access memory
+    SFF: small form factor
+    NCC: neural correlates of consciousness
+    MB: megabyte
+    KL: Kullback-Leibler
+    LLM: large language model
+    ML: machine learning
+    CSV: comma-separated values

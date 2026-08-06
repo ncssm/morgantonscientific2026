@@ -1,0 +1,31 @@
+version: 1
+extends:
+  - ../../morganton2026.yml
+project:
+  id: morganton-2026-chenchu
+  thumbnail: "images/fig2.png"
+  title: >-
+    Effects of Caffeine Concentration on Survivability, Locomotor Activity, and Memory in Drosophila melanogaster
+  subject: Biology
+  keywords:
+  - Drosophila melanogaster
+  - caffeine
+  - locomotion
+  - negative geotaxis
+  - survivability
+  - memory
+  - sucrose
+  authors:
+    - name: Harshika Chenchu
+      email: chenchu27h@ncssm.edu
+      orcid: 0009-0007-4288-0033
+      affiliation: ncssm
+    - name: Amalia Bordoloi
+      email: bordoloi27a@ncssm.edu
+      affiliation: ncssm
+  abbreviations:
+    NCSSM: North Carolina School of Science and Mathematics
+    ANOVA: analysis of variance
+    SEM: standard error of the mean
+    NPY: neuropeptide Y
+    DNA: deoxyribonucleic acid
