@@ -1,0 +1,35 @@
+version: 1
+project:
+  banner: ../../templates/ncssm-preface/banner.jpg
+  github: https://github.com/ncssm/morgantonscientific2026
+  open_access: true
+  license: CC-BY-4.0
+  # TODO(2026): set the publication date for this volume
+  date: 2024-06-27
+  venue:
+    title: Morganton Scientific
+    url: https://morgantonscientific.ncssm.edu
+    doi: 10.62329/TJYM8050
+  abbreviations:
+    NCSSM: North Carolina School of Science and Mathematics
+  funding:
+    statement: Funding for this program is provided by the North Carolina School of Science and Mathematics, the University of North Carolina General Administration, and the General Assembly for the State of North Carolina.
+  affiliations:
+    - id: ncssm
+      institution: North Carolina School of Science and Mathematics
+      address: 901 Burkemont Ave
+      city: Morganton
+      region: North Carolina
+      country: United States
+      postal_code: 28655
+      phone: 828-347-9100
+      ror: https://ror.org/03zbydc22
+  volume:
+    number: 3
+  # TODO(2026): issue DOI must be minted for this volume.
+  # The 2025 value (10.62329/dwgm3685) is deliberately NOT carried over —
+  # reusing it would file 2026 articles under the 2025 issue record.
+  # issue:
+  #   doi:
+site:
+  template: https://github.com/myst-templates/article-theme.git

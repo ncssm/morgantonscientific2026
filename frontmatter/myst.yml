@@ -1,0 +1,33 @@
+version: 1
+project:
+  id: morganton-2026-vol-3
+  title: Morganton Scientific - Volume 3
+  banner: ../templates/ncssm-preface/banner.jpg
+  thumbnail: ../templates/ncssm-preface/logo.png
+  description: |
+    The Morganton Scientific showcases some of the most
+    interesting and complex math- and science-centered
+    research projects explored by students at NCSSM.
+    We are a public high school where talented students
+    realize their potential and find their niche.
+  # Volume 3 (2026) Co-Editors-in-Chief, per the Editors' Note.
+  # TODO(2026): emails/ORCIDs not supplied; 2025 editors had neither either.
+  authors:
+    - name: Henry Chen
+      affiliation: ncssm
+    - name: Clara Lappan
+      affiliation: ncssm
+    - name: Alex Qu
+      affiliation: ncssm
+  # TODO(2026): front-matter DOI must be minted (2025 value was 10.62329/dwgm3685)
+  downloads:
+    - title: Download Full PDF
+      format: pdf
+      url: ../morganton2026.pdf
+      filename: morganton2026.pdf
+  exports:
+    - format: typst
+      template: ../templates/ncssm-preface
+      article: article.md
+      output: article.pdf
+extends: volume.yml

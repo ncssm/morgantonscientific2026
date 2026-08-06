@@ -1,0 +1,29 @@
+name: Curvenote Submission from Main
+on:
+  push:
+    branches: ['main']
+permissions:
+  contents: write
+jobs:
+  submit-papers:
+    uses: curvenote/actions/.github/workflows/submit.yml@v1
+    with:
+      id-pattern-regex: '^morganton-2026-(?:[a-zA-Z0-9-_]{2,15})$'
+      venue: ncssm-mor
+      collection: '2026'
+      kind: original
+      path: papers/*
+    secrets:
+      CURVENOTE: ${{ secrets.CURVENOTE_TOKEN }}
+      GITHUB: ${{ secrets.GITHUB_TOKEN }}
+  submit-essays:
+    uses: curvenote/actions/.github/workflows/submit.yml@v1
+    with:
+      id-pattern-regex: '^morganton-2026-(?:[a-zA-Z0-9-_]{2,15})$'
+      venue: ncssm-mor
+      collection: '2026'
+      kind: essay
+      path: essays/*
+    secrets:
+      CURVENOTE: ${{ secrets.CURVENOTE_TOKEN }}
+      GITHUB: ${{ secrets.GITHUB_TOKEN }}

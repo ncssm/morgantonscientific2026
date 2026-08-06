@@ -1,0 +1,9 @@
+# Table of contents data for the printed preface.
+#
+# GENERATED FILE — written by scripts/generate_summary.sh as part of
+# scripts/make_pdfs.sh, once every article has been paginated.
+#
+# Intentionally empty for Volume 3. The Volume 2 (2025) contents that previously
+# lived here were removed so that a stale table of contents cannot be printed by
+# accident before this volume is paginated.
+[]

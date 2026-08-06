@@ -1,0 +1,12 @@
+# See docs at: https://mystmd.org/guide/frontmatter
+version: 1
+project:
+  title: Essays
+  # TODO(2026): set after the PDF build; 2025 value was 26
+  # first_page:
+  exports:
+    - format: typst
+      template: ../../templates/ncssm-divider
+      output: divider.pdf
+      options:
+        section: essays
