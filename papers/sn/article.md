@@ -1,6 +1,5 @@
 ---
 title: Comparative Evaluation of Neural Network Compression Techniques Across Cloud GPU, NPU, and CPU Platforms
-date: 2026-02-15
 abstract: |
     Neural network model compression is essential for deploying deep learning models on resource-constrained edge devices, yet most research evaluates compression techniques exclusively on cloud-based GPU infrastructure. This study systematically compares three compression methods: magnitude-based pruning, post-training INT8 quantization, and knowledge distillation. We tested these methods across diverse hardware platforms: cloud GPU (NVIDIA T4), modern laptop NPU (Intel Core Ultra 5), and legacy desktop CPU (Intel Core i5-8400). Using MNIST and CIFAR-10 benchmarks with custom convolutional architectures, we evaluated accuracy preservation, model size reduction, and inference latency across 46 experimental configurations. 
     

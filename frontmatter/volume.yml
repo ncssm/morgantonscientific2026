@@ -4,8 +4,7 @@ project:
   github: https://github.com/ncssm/morgantonscientific2026
   open_access: true
   license: CC-BY-4.0
-  # TODO(2026): set the publication date for this volume
-  date: 2024-06-27
+  date: 2026-06-01
   venue:
     title: Morganton Scientific
     url: https://morgantonscientific.ncssm.edu

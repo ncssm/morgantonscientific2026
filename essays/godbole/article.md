@@ -1,7 +1,6 @@
 ---
 title: | 
     Personal Identity and Mind Uploading: A Cartesian Analysis
-date: 2026-02-15
 ---
 
 Advances in computational neuroscience and large-scale brain mapping have opened the possibility for a new form of immortality integrating both technology and consciousness, a process known as mind uploading. This idea proposes that if the structural and functional organization of the brain can be sufficiently mapped and simulated, the resulting computational model could reproduce the cognitive processes associated with memory, personality, and conscious experience [@sandberg2008whole]. Yet, these assumptions are contingent on the idea that consciousness is independent of the biological body, allowing for the mind to be "uploaded" into a medium aside from the body. Mind uploading raises a central scientific question: if consciousness can be replicated and transferred to another medium, is the resulting uploaded individual's personal identity preserved? Using René Descartes's dualist framework, this essay argues that mind uploading fails to preserve personal identity, as it reproduces neural activity without capturing the non-physical mind that defines true consciousness.
