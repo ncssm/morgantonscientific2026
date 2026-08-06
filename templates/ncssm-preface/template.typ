@@ -59,7 +59,7 @@
   #v(0.5em)
   #text(size:10pt, fill: black.lighten(40%), link("https://doi.org/[-doc.issue.doi-]")[https://doi.org/[-doc.issue.doi-]])
   #v(5em)
-  #text(size:8pt, fill: black.lighten(40%), [Cover image by Arjun Rao])
+  #text(size:8pt, fill: black.lighten(40%), [Cover image by Layla Ibrahim])
 ]
 
 #show heading: set text(fill: rgb("#C18849"))
