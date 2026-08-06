@@ -19,18 +19,12 @@ project:
     - Balance Training
   subject: Biology
 
-  authors: 
+  authors:
     - name: Carter Stephan
       affiliation: ncssm
       email: stephan26c@ncssm.edu
       orcid: 0009-0008-0853-4687
-    # TODO(2026): these three co-authors still need email + ORCID before submission
-    - name: Savannah Davis
-      affiliation: ncssm
-    - name: Shivani Deviprasad
-      affiliation: ncssm
-    - name: Landon Nelson
-      affiliation: ncssm
+      corresponding: true
   abbreviations:
     PD: Parkinson's Disease
     FoG: Freezing of Gait
