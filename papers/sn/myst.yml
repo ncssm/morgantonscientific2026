@@ -18,6 +18,7 @@ project:
     - Quantization
     - Knowledge Distillation
     - Edge Inference
+  subject: Computer Science
   authors:
     - name: Harri Sn
       email: sn27h@ncssm.edu
