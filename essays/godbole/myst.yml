@@ -1,0 +1,22 @@
+version: 1
+extends:
+  - ../../morganton2026.yml
+project:
+  id: morganton-2026-godbole
+  thumbnail: "../../templates/ncssm-preface/logo.png"
+  title: >-
+    Personal Identity and Mind Uploading: A Cartesian Analysis
+  keywords:
+    - Mind Uploading
+    - Personal Identity
+    - Cartesian Dualism
+    - Consciousness
+    - Neuroethics
+  authors:
+    - name: Asmi Godbole
+      email: godbole26a@ncssm.edu
+      orcid: 0009-0006-5050-900X
+      affiliation: ncssm
+  abbreviations:
+    NCSSM: North Carolina School of Science and Mathematics
+    NCC: neural correlates of consciousness

@@ -1,0 +1,25 @@
+version: 1
+extends:
+  - ../../morganton2026.yml
+project:
+  id: morganton-2026-king-nguyen
+  thumbnail: "images/Effect of Matcha and Sweeteners on Locomotor of D. melanogaster.png"
+  title: >-
+    Do Sweeteners Alter the Effects of Matcha? The Study of Natural versus Artificial Sweeteners on the Cognitive and Locomotive Activity of Drosophila melanogaster.
+  keywords:
+    - Matcha
+    - Artificial Sweeteners
+    - Splenda
+    - Honey
+    - Memory Retention
+  authors:
+    - name: Karalyn King
+      email: king27k@ncssm.edu
+      affiliation: ncssm
+    - name: Helen Nguyen
+      email: nguyen27h@ncssm.edu
+      orcid: 0009-0004-0946-9021
+      affiliation: ncssm
+  subject: Biology
+  abbreviations:
+    HSD: high-sugar diets

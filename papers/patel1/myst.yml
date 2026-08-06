@@ -1,0 +1,26 @@
+# See docs at: https://mystmd.org/guide/frontmatter
+version: 1
+extends:
+  - ../../morganton2026.yml
+project:
+  id: morganton-2026-patel1
+  thumbnail: "../../templates/ncssm-preface/logo.png"
+  title: Generalization Failures in AI-Based Leukemia Detection
+  subject: Biology
+  keywords:
+    - Leukemia Detection
+    - Stain Variability
+    - Blood Smear Classification
+    - Cross-Institution Validation
+    - Convolutional Neural Networks
+  authors: 
+    - name: Ayush Patel
+      affiliation: ncssm
+      email: patel27a3@ncssm.edu
+      orcid: 0009-0007-3614-5657
+  abbreviations:
+    ALL: Acute Lymphoblastic Leukemia
+    AML: Acute Myeloid Leukemia
+    WBC: White Blood Cell
+    CNN: Convolutional Neural Network
+    ViT: Vision Transformer

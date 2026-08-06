@@ -1,0 +1,30 @@
+version: 1
+extends:
+  - ../../morganton2026.yml
+project:
+  id: morganton-2026-friedman
+  thumbnail: "images/24 hr RFU vs Time (FS).png"
+  title: >-
+    Effects of Epigallocatechin-3-gallate on Β-amyloid (25-35) Aggregation: an Application to Sporadic Inclusion Body Myositis
+  keywords:
+    - Epigallocatechin-3-gallate
+    - β-Amyloid
+    - Thioflavine T
+    - Inclusion Body Myositis
+    - Fluorescence Spectroscopy
+  authors:
+    - name: Stella D. Friedman
+      email: friedman26s@ncssm.edu
+      orcid: 0009-0004-3894-125X
+      affiliation: ncssm
+  subject: Chemistry
+
+  abbreviations:
+    sIBM: Sporadic Inclusion Body Myositis
+    EGCG: epigallocatechin-3-gallate
+    APP: amyloid precursor protein
+    AD: Alzheimer’s Disease
+    ThT: Thioflavine T
+    RFU: relative fluorescence units
+    FTIR: Fourier Transform Infrared Spectroscopy
+    PBS: Phosphate Buffered Saline

@@ -1,0 +1,30 @@
+version: 1
+extends:
+  - ../../morganton2026.yml
+project:
+  id: morganton-2026-qu
+  thumbnail: "images/qu_fig_3.png"
+  title: >-
+    Synthesis and Characterization of Carbomer-Agarose Hydrogel for Sustained Melatonin Release to Promote Traumatic Brain Injury Recovery
+  keywords:
+    - Traumatic Brain Injury
+    - Hydrogel
+    - Melatonin Release
+    - Sustained Drug Delivery
+    - Carbomer-Agarose
+  authors:
+    - name: Alvin Qu
+      email: qu26a@ncssm.edu
+      orcid: 0009-0003-1242-0379
+      affiliation: ncssm
+      corresponding: true
+  abbreviations:
+    NCSSM: North Carolina School of Science and Mathematics
+    TBI: Traumatic Brain Injury
+    CNS: Central Nervous System
+    FDA: Food and Drug Association
+    MT1: Melatonin Receptor 1
+    MT2: Melatonin Receptor 2
+    HIT: High Impact Trauma
+    PBS: Phosphate-Buffered Saline
+  subject: Chemistry

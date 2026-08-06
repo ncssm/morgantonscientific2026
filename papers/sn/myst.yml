@@ -12,6 +12,12 @@ project:
   title: >-
     Comparative Evaluation of Neural Network Compression Techniques Across Cloud
     GPU, NPU, and CPU Platforms
+  keywords:
+    - Model Compression
+    - Neural Processing Unit
+    - Quantization
+    - Knowledge Distillation
+    - Edge Inference
   authors:
     - name: Harri SN
       email: sn27h@ncssm.edu

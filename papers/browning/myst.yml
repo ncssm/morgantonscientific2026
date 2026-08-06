@@ -1,0 +1,21 @@
+version: 1
+extends:
+  - ../../morganton2026.yml
+project:
+  id: morganton-2026-browning
+  thumbnail: "images/browning_fig_9.png"
+  title: >-
+    From Brain Chemistry to Computational Chemistry: Modeling Pronation and
+    Solvation Effects on Major Neurotransmitters
+  keywords:
+    - Neurotransmitters
+    - Protonation
+    - Solvation
+    - Density Functional Theory
+    - B3LYP
+  authors:
+    - name: Lexie Browning
+      email: browning26l@ncssm.edu
+      orcid: 0009-0006-7158-659X
+      affiliation: ncssm
+  subject: Chemistry

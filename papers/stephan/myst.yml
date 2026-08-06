@@ -1,0 +1,37 @@
+version: 1
+extends:
+  - ../../morganton2026.yml
+project:
+  id: morganton-2026-stephan
+  thumbnail: "images/figure5.png"
+  title: "Exercise-based Interventions in Parkinson's Disease: A Pilot Study"
+  keywords:
+    - Parkinson's Disease
+    - Exercise Intervention
+    - Motor Imagery
+    - Gait
+    - Balance Training
+
+  authors: 
+    - name: Carter Stephan
+      affiliation: ncssm
+      email: stephan26c@ncssm.edu
+      orcid: 0009-0008-0853-4687
+    # TODO(2026): these three co-authors still need email + ORCID before submission
+    - name: Savannah Davis
+      affiliation: ncssm
+    - name: Shivani Deviprasad
+      affiliation: ncssm
+    - name: Landon Nelson
+      affiliation: ncssm
+  abbreviations:
+    PD: Parkinson's Disease
+    FoG: Freezing of Gait
+    M1: Motor Cortex
+    MI: Motor Imagery
+    AO: Action Observation
+    DBS: Deep Brain Stimulation
+    ADL: Activities of Daily Living
+    CWT: Complex Walking Task
+    VR: Virtual Reality
+    PA: Physical Activity

@@ -1,0 +1,25 @@
+version: 1
+extends:
+  - ../../morganton2026.yml
+project:
+  id: morganton-2026-johnson
+  thumbnail: "images/zfish embryo hrt rate 48hpf.png"
+  title: >-
+    A Comparative Analysis of the Effects of Astaxanthin and β-Sitostenone on a Danio rerio Model of Diabetic Retinopathy
+  keywords:
+    - Diabetic Retinopathy
+    - Astaxanthin
+    - β-Sitostenone
+    - Danio rerio
+    - Optokinetic Response
+  authors:
+    - name: Mary Emma Johnson
+      email: johnson26m@ncssm.edu
+      orcid: 0009-0005-9964-3165
+      affiliation: ncssm
+  abbreviations:
+    DR: Diabetic retinopathy
+    OKR: optokinetic response
+    ROS: reactive oxygen species
+    WT: Wild-type
+    CPD: cycles per degree

@@ -1,0 +1,26 @@
+# See docs at: https://mystmd.org/guide/frontmatter
+version: 1
+extends:
+  - ../../morganton2026.yml
+project:
+  id: morganton-2026-selvakumar
+  thumbnail: "images/Figure 1.png"
+  title: Effects of Probiotic Yogurt Cultures from Dahi on Dextrose-Induced Type 2 Diabetic-like Symptoms in Caenorhabditis elegans
+  subject: Biology
+  keywords:
+    - Type 2 Diabetes
+    - Probiotics
+    - Caenorhabditis elegans
+    - Dahi
+    - Lipid Accumulation
+  authors: 
+  - name: Roshini Selvakumar
+    affiliation: ncssm
+    email: selvakumar26r@ncssm.edu
+    orcid: 0009-0009-4511-1090
+  abbreviations:
+    ORO: Oil Red O
+    NGM: Nematode Growth Medium
+    BLAST: Basic Local Alignment Search Tool
+    MRS: Man, Rogosa and Sharpe
+

@@ -1,0 +1,34 @@
+version: 1
+extends:
+  - ../../morganton2026.yml
+project:
+  id: morganton-2026-patel2
+  thumbnail: "images/fig4.png"
+  title: >-
+    Analysis of Wolbachia Presence in Pyrrharctia and Boisea (Woolly Worms and
+    Boxelder Bugs)
+  keywords:
+    - Wolbachia
+    - Endosymbiont
+    - Pyrrharctia isabella
+    - Boisea rubrolineata
+    - Polymerase Chain Reaction
+  authors:
+    - name: Ayush Patel
+      email: patel27a3@ncssm.edu
+      orcid: 0009-0007-3614-5657
+      affiliation: ncssm
+
+  abbreviations:
+    NCSSM: North Carolina School of Science and Mathematics
+    PCR: polymerase chain reaction
+    COI: cytochrome c oxidase subunit I
+    rRNA: ribosomal ribonucleic acid
+    DNA: deoxyribonucleic acid
+    Q20: Phred quality score of 20
+    BLAST: Basic Local Alignment Search Tool
+    TBE: Tris-Borate-EDTA
+    EDTA: ethylenediaminetetraacetic acid
+    dNTP: deoxyribonucleoside triphosphate
+    bp: base pairs
+    rpm: revolutions per minute

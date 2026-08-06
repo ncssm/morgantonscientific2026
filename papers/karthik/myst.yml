@@ -1,0 +1,26 @@
+version: 1
+extends:
+  - ../../morganton2026.yml
+project:
+  id: morganton-2026-karthik
+  thumbnail: "images/nanoparticles synthesized.jpg"
+  title: >-
+    Engineering a Low-Cost Environment for Magnetic Hyperthermia: From Nanoparticle Synthesis to Alternating Magnetic Field Testing
+  keywords:
+    - Magnetic Hyperthermia
+    - Magnetite Nanoparticles
+    - Dynamic Light Scattering
+    - Rotating Magnetic Field
+    - Thermochromic Phantom Tissue
+  authors:
+    - name: Akhilesh Karthik
+      email: karthik26a@ncssm.edu
+      orcid: 0009-0003-6039-0266
+      affiliation: ncssm
+      corresponding: true
+  subject: Physics
+  abbreviations:
+    MH: Magnetic Hyperthermia
+    AMFs: alternating magnetic fields
+    DLS: Dynamic Light Scattering
+    SAR: Specific Absorption Rates

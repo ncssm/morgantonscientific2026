@@ -8,13 +8,11 @@ project:
     Effects of Caffeine Concentration on Survivability, Locomotor Activity, and Memory in Drosophila melanogaster
   subject: Biology
   keywords:
-  - Drosophila melanogaster
-  - caffeine
-  - locomotion
-  - negative geotaxis
-  - survivability
-  - memory
-  - sucrose
+    - Caffeine
+    - Drosophila melanogaster
+    - Negative Geotaxis
+    - Short-Term Memory
+    - Survivability
   authors:
     - name: Harshika Chenchu
       email: chenchu27h@ncssm.edu
