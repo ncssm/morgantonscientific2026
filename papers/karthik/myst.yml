@@ -8,9 +8,9 @@ project:
     Engineering a Low-Cost Environment for Magnetic Hyperthermia: From Nanoparticle Synthesis to Alternating Magnetic Field Testing
   description: >-
     Magnetic hyperthermia research is limited by the cost of equipment. Magnetite nanoparticles
-    were synthesised by coprecipitation and characterised with UV-Vis and a low-cost dynamic
+    were synthesized by coprecipitation and characterized with UV-Vis and a low-cost dynamic
     light scattering instrument. An initial coil-based alternating field proved too weak, so the
-    setup pivoted to a motorised rotating magnet, which raised thermochromic phantom tissue by
+    setup pivoted to a motorized rotating magnet, which raised thermochromic phantom tissue by
     1.5 degrees Celsius in 15 minutes.
   keywords:
     - Magnetic Hyperthermia
