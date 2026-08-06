@@ -74,11 +74,11 @@ Serotonin’s indole ring, when interacting with protonated structure, can creat
 
 ## Results
 
-### General Overview:
+### General Overview
 
 Once each neurotransmitter was compared across solvated and protonated states, several key patterns were observed. The following section explores the major trends in the data and highlights the structural and molecular reasoning behind each. The results are divided into sections based on the property that was analyzed. All numerical data was obtained from the molecular orbitals analysis on each molecule, and visualized using Wolfram and Mathematica software [@noauthor_wolfram_nodate]. 
 
-### Neutral, gas phase molecules:
+### Neutral, gas phase molecules
 
 Establishing a baseline for each molecule was necessary before evaluating protonation and solvation effects. In order to appropriately analyze the solvated or protonated versions, the patterns present in the neutral or gas phase versions of each molecule needed to be determined first.
 
@@ -90,7 +90,7 @@ For the neutral gas phase version of serotonin, the values were as follows: the 
 
 For the neutral, gas phase version of epinephrine, the values were as follows: the HOMO energy was -5.908408242 eV, the LUMO energy was 1.302881162 eV, the Dipole moment was 2.7163 Debye, the total electronic energy was -634.765595399 Hartree, the HOMO - LUMO gap was 7.211289404 eV, the Zero Point Correction energy was 0.286086 Hartree, and the Polarizability value was 110.02 Bohr$^3$. This molecule showed the lowest dipole moment of the three, the highest HOMO–LUMO gap, and a polarizability value that was high but not the highest.
 
-### Protonated, gas phase molecules:
+### Protonated, gas phase molecules
 
 Comparing the molecules in which only the protonation state changed provided a second baseline for comparison before analyzing solvation effects.
 
@@ -100,7 +100,7 @@ For the protonated, gas phase version of serotonin, the values were as follows: 
 
 For the protonated, gas phase version of epinephrine, the values were as follows: the HOMO energy was -9.424663541 eV, the LUMO energy was -3.53748018 eV, the Dipole moment was 14.2251 Debye, the total electronic energy was -635.167314174 Hartree, the HOMO - LUMO gap was 5.887183361 eV, the Zero Point Correction energy was 0.302258 Hartree, and the Polarizability value was 108.68 Bohr$^3$. This molecule showed the lowest dipole moment of the protonated set, the largest HOMO–LUMO gap, and a polarizability that fell between the other two.
 
-### Neutral, solvated molecules:
+### Neutral, solvated molecules
 
 Then, comparing the molecules with only the solvation state changed, provided a second baseline for comparison before analyzing the effects of both solvation and protonation.
 
@@ -110,7 +110,7 @@ For the neutral, solvated version of serotonin, the values were as follows: the 
 
 For the neutral, solvated version of epinephrine, the values were as follows: the HOMO energy was -5.900244826 eV, the LUMO energy was 1.842210832 eV, the Dipole moment was 1.7544 Debye, the total electronic energy was -634.783876924 Hartree, the HOMO - LUMO gap was 7.742455658 eV, the Zero Point Correction energy was 0.286339 Hartree, and the Polarizability value was 138.92 Bohr$^3$. Epinephrine had by far the lowest dipole moment in solvent, along with the largest HOMO–LUMO gap; its polarizability fell between that of dopamine and serotonin.
 
-### Protonated, solvated molecules:
+### Protonated, solvated molecules
 
 Finally, using the basis set up in the first data set, the solvated and protonated molecules were appropriately compared to the neutral, gas phase molecules.
 
@@ -122,7 +122,7 @@ For the protonated, solvated version of epinephrine, the values were as follows:
 
 ## Discussion
 
-### Dipole Moment Changes Upon Protonation:
+### Dipole Moment Changes Upon Protonation
 
 Protonation significantly increased the dipole moment for each neurotransmitter. For example, neutral dopamine had a dipole moment of 3.5 Debye. Then, when protonated, this jumped to 17 Debye, an approximate 385% increase. Both serotonin and epinephrine had similar patterns in their dipole moments– each showing an approximate 425% increase. Overall, these trends suggest that protonation and solvation increase charge separation, making the molecules drastically more polar. This is because adding a positive charge likely shifted the density of the electron cloud, focusing the electrons on one side of the molecule or the other and amplifying the polarity of it. Consequently, the protonated forms of these molecules were more sensitive to interacting electronic fields, including a solvent environment.
 
@@ -163,7 +163,7 @@ A Principal Component Analysis (PCA) was performed to summarize multiple variabl
 PCA Visualization
 ```
 
-### Correlation Matrix Analysis:
+### Correlation Matrix Analysis
 
 After the PCA, a correlation matrix was created to more accurately understand the relationships between variables. Two key observations were noted. First, the dipole moment showed a strong negative correlation with the HOMO and LUMO energies, the HOMO–LUMO gap, and the total electronic energy. This suggests that increases in charge separation were consistently associated with decreases in electronic energy levels. Second, the HOMO–LUMO gap showed a weak correlation with nearly every other variable, reinforcing the idea that the orbital gap may not be the primary determinant of neurotransmitter reactivity. Third, polarizability exhibited only weak correlations with the other variables. This suggests that polarizability changes arise mainly from geometric or structural alterations rather than direct electronic stabilization or destabilization.
 
@@ -178,7 +178,7 @@ This reflects real world neurotransmitter patterns. The brain is able to regulat
 Correlation Matrix Visualization
 ```
 
-### Three-Dimensional Structural and Electronic Shifts:
+### Three-Dimensional Structural and Electronic Shifts
 
 After the correlation matrix was created, two 3D graphs were created to visualize the physical properties of each molecule in multi-dimensional space. This revealed an important insight. Even though protonation caused structural differences, as discussed above, the direction of the shift was consistent between dopamine, serotonin, and epinephrine. As seen in the first 3D figure, based on their original locations with dopamine sitting at the lower values, serotonin sitting at mid range values, and epinephrine sitting at the higher values, it was concluded that polarizability may be an appropriate descriptor not just of the molecules’ behavior, but molecules’ structural identity. Even once protonated or placed in water solvent, polarizability separated molecule identity. Additionally, dipole moment was the most appropriate descriptor of protonation status. As the second 3D figure, serotonin exhibited the largest protonation-induced shifts, dopamine moderate shifts, and epinephrine the smallest shifts. When in water solvent, these changes weakened overall. Importantly, the dipole moment contributed the most to each shift. This demonstrated that dipole moment, the property most sensitive to protonation, is the most relevant descriptor. to modeling real - world neurotransmitter interactions.
 
@@ -212,7 +212,7 @@ With all of these changes, it is important that the molecule remains stable. Low
 
 Taken together, these molecular insights illustrate how changes in electronic structure and protonation state may directly influence receptor interactions and neural function, bridging the gap between computational predictions and real-world neurotransmitter activity.
 
-### Interpretation:
+### Interpretation
 
 Together, these trends provided a complete view of dopamine, serotonin, and epinephrine. Their unique responses to protonation and solvation were seen in the changes in dipole moment, orbital energies, and polarizability. While some theoretical trends initially seemed in conflict with one another, realistic patterns soon emerged when considering the bigger picture of neurotransmitter behavior in biological systems. The dramatic increase in dipole moment upon protonation likely affects how each neurotransmitter orients itself in the polar extracellular fluid. This means that neurotransmitters with larger dipole moments will be very sensitive to surrounding electronic fields. This determines how easily they would be attracted to or repelled from receptor sites. The effects of solvation support these conclusions. The biological functions of each neurotransmitter depends heavily on hydrogen bond formation. For example, dopamine had a strong tendency to form hydrogen bonds. This explains its shorter diffusion ability, compared to the others.
 
