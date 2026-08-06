@@ -34,19 +34,19 @@ Ultimately, it is hypothesized that melatonin will enhance locomotor recovery in
 
 ## Methods
 
-### High Impact Trauma (Hit) Device Construction
+### High Impact Trauma Device Construction
 
 To assemble the device, the spring was first secured to a wooden board using two clamps fastened with four screws. The clamps were centered across the width of the board and positioned flush against one another, with the outer clamp aligned with the edge of the board. Prior to mounting, the clamps were bent using pliers to ensure a tight fit around the spring. When installed, the clamped end of the spring sat 1/8 inch (3.2 mm) from the board’s edge, and the free end extended 3/4 inch (19 mm) beyond it. The spring was then adjusted to lie parallel to the length of the board. The free end was wrapped once with an adhesive Velcro loop strip, with its outer edge flush with the tip of the spring.
 
 A polyurethane pad was positioned adjacent to the wooden board at a distance such that only the bottom 1 inch of the vial could make contact with it during operation. This placement ensured that the vial remained properly aligned while preventing the spring from resting flat against the board. Both the polyurethane pad and the wooden board were secured firmly in place using C-clamps to prevent any movement during testing. A digital angle gauge was aligned alongside the length of the board so that a reading of 90° corresponded to the spring in its fully vertical, pulled-back position.
 
-### Hit Device Operation & Calibration
+### HIT Device Operation & Calibration
 
 Between 10 and 60 young flies (0–3 days old) were placed into an empty vial and secured with a tight-fitting cotton ball. The flies were confined to the bottom 1 inch (2.5 cm) of the vial by pushing the cotton ball downward to the 1-inch mark, which was drawn on the vial to ensure consistency. After loading, the flies were allowed to recover mobility from CO₂ anesthesia for 5 minutes. The end of the spring was then inserted into the vial until the inner edge of the Velcro strip was flush with the top of the vial. When the spring rested in its horizontal position, approximately 1 inch (2.5 cm) of the vial overlapped with the raised region of the polyurethane pad.
 
 During operation, the board and polyurethane pad were secured to the benchtop using C-clamps. The spring was pulled straight back to a 90° angle using a digital angle gauge for precise alignment, then released to deliver the strike. After the spring came to a complete stop, the flies were allowed to recover for 30 seconds. Each group received four total strikes, with a 30-second rest period between impacts. Following the final strike, the flies were given a 10-minute recovery period before being transferred to a fresh food vial. Untreated control flies were handled identically but without spring deflection or impact.
 
-To calibrate the HIT device for mild TBI, the mortality index at 24 hours post-injury (MI$_{24}$) was measured—an MI$_{24}$ of 19.0 ± 4.0 was expected. Prior to injury, the number of flies used for each trial was recorded, and 10–60 CO₂-anesthetized w1118 flies were transferred into a vial. Twenty-four hours after injury, the number of dead flies in each trial was counted, and the MI24 was calculated as the percentage of flies that died using the formula:
+To calibrate the High Impact Trauma (HIT) device for mild TBI, the mortality index at 24 hours post-injury (MI$_{24}$) was measured—an MI$_{24}$ of 19.0 ± 4.0 was expected. Prior to injury, the number of flies used for each trial was recorded, and 10–60 CO₂-anesthetized w1118 flies were transferred into a vial. Twenty-four hours after injury, the number of dead flies in each trial was counted, and the MI24 was calculated as the percentage of flies that died using the formula:
 
 $\mathrm{MI}_{24} = \frac{\text{Number of dead flies}}{\text{Total number of flies}} \times 100$
 
