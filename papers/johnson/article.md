@@ -47,10 +47,10 @@ concentrations as a treatment (LA+D+E3 and HA+D+E3). Columns 5–6 held
 embryos with DR and β-sitostenone in low and high concentrations as a treatment
 (LS+D+E3 and HS+D+E3). 
 ```
-### Heart rate determination:
+### Heart rate determination
 Hyperglycemia has been found to elevate heart rates in zebrafish [@yanyi_activation_2017]. To ensure that DR had been induced in the embryos and to evaluate the therapeutic effects of astaxanthin and β-sitostenone, a heart rate analysis was performed. At 48 hpf, video imaging of each embryo’s heartbeat in lateral position was performed under a confocal microscope for 15 seconds at 30 frames per second. The number of heart beats that was counted was multiplied by four and recorded as beats per minute. If any larvae showed an absent or abnormal heart rate, they were  removed from their wells immediately to prevent potential contamination of other embryos and to attenuate confounding factors in the data. 
 
-### Quantitative optokinetic response (OKR):
+### Quantitative optokinetic response
 Retinopathy disrupts blood vessels that provide photoreceptors with oxygen and nutrients, leading to hypoxia and oxidative stress, which leads to eventual photoreceptor cell dysfunction [@kern_photoreceptors_2015]. This assay served as a way to assess how damaged each group’s photoreceptor cells are and how strong their visual acuity is. After the larvae are 5 days post-fertilization (dpf), 1 larva per group was placed in a 35-mm petri dish filled with 6% methylcellulose near to the brim. Methylcellulose is necessary to immobilize the fish during visual imaging. The petri dish was placed onto a stereo microscope for imaging. By printing 3D parts and using an arduino microcontroller, the optokinetic response can be observed from all larvae. 
 
 Controlled by the arduino, a 3D printed cylinder wall with 1 cm black and white alternating stripes will rotate at 6 rpm (rotations per minute) around the petri dish to assess the larvae’s visual acuity [@hermans_3d-printed_2024]. After this was observed, the 1 cm stripes were replaced with 0.5 cm stripes to determine which groups could pick up on the contrast. To analyze the spatial frequency of the stripes, the cycles per degree (CPD) was calculated for both widths of the stripes. The CPD was calculated using the following formula, where h represented the length of one cycle of the smallest grading at which OKR was observed, and a represented the distance from the center of the lens to the grading: $\frac{1}{2tan^{-1}(\frac{h}{2a})}$ 
@@ -59,7 +59,7 @@ Higher CPD values tend to be more difficult for zebrafish embryos to elicit an o
 
 Once the larva was secured in the petri dish and situated under the microscope, the recording was started from the camera, and the motor program through the Arduino controller was also started. This caused the black and white stripes to rotate around the immobilized larva. One at a time, each of the larvae were  assessed at three different speeds, each speed faster than the previous one, for 1 minute per speed. Each 1 minute video was split up into 10 second intervals, and the number of full saccades in each interval was counted and multiplied by 6 to be recorded as saccades per minute. This is a cost-efficient and easily set up method to perform in comparison to purchasing a premade apparatus. Statistical analysis, using a one-way ANOVA and a 95% confidence interval, was performed using GraphPad Prism software to obtain p-values and construct graphs.
 
-### Zebrafish embryo euthanization:
+### Zebrafish embryo euthanization
 After 7 dpf, the zebrafish larvae were placed in a bleach solution (sodium hypochlorite 6.15%) for at least 5 minutes. Lab PPE (gloves, coat, and goggles) will be worn at all times to prevent any harm from fumes/splashed bleach solution. Then, the larvae were properly disposed of and the remaining bleach solution was poured out. This is an ethical euthanization method and is not considered a painful procedure by the Guidelines for Euthanasia of Zebrafish [@NIH_Zebrafish_Euthanasia_2023].
 
 ## Results
@@ -71,7 +71,7 @@ After 7 dpf, the zebrafish larvae were placed in a bleach solution (sodium hypoc
 Zebrafish embryo heart rate at 48 hpf. There is a significant difference between the D+E3 (130 mM dextrose) group and the following groups: E3 (Control), LA+D+E3 (10 µg/L astaxanthin), HA+D+E3 (100 µg/L astaxanthin), LS+D+E3 (0.1 µM β-sitostenone), and HS+D+E3 (1 µM β-sitostenone).
 ```
 This data indicates that 130mM dextrose was sufficient to induce elevated heart rate levels that are associated with diabetes. Additionally, the figure shows that the heart rate was effectively decreased by all experimental groups, indicating the potential of astaxanthin and β-sitostenone for alleviation of the cardiovascular components of diabetic retinopathy. 
-### Quantitative optokinetic response (OKR)
+### Quantitative optokinetic response
 ```{figure} images/OKR for 054 CPD.png
 :align: center
 :name: Figure_3
