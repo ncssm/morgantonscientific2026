@@ -28,7 +28,7 @@ To ensure compatibility with brain tissue, carbomer 974P and agarose are used in
 
 ### Research Objectives
 
-This study explores (1) the potential of melatonin as a neurotherapeutic agent for TBI treatment, and (2) the efficacy of a biocompatible carbomer-agarose hydrogel as a potential drug delivery system to overcome melatonin’s clinical limitations. To model TBI, a *Drosophila Melanogaster* model is used, with biological assays testing the effects of melatonin on restoring locomotor activity [@katzenberger_method_2015]. Through characterization analyses, the chemical and biomedical properties of the hydrogel system are determined [@rossi_characterization_2011].        
+This study explores (1) the potential of melatonin as a neurotherapeutic agent for TBI treatment, and (2) the efficacy of a biocompatible carbomer-agarose hydrogel as a potential drug delivery system to overcome melatonin’s clinical limitations. To model TBI, a *Drosophila melanogaster* model is used, with biological assays testing the effects of melatonin on restoring locomotor activity [@katzenberger_method_2015]. Through characterization analyses, the chemical and biomedical properties of the hydrogel system are determined [@rossi_characterization_2011].        
 
 Ultimately, it is hypothesized that melatonin will enhance locomotor recovery in a *Drosophila melanogaster* model of TBI, and the carbomer-agarose hydrogel will effectively deliver melatonin in a sustained manner and surmount its therapeutic limitations.
 
@@ -50,7 +50,7 @@ To calibrate the High Impact Trauma (HIT) device for mild TBI, the mortality ind
 
 $\mathrm{MI}_{24} = \frac{\text{Number of dead flies}}{\text{Total number of flies}} \times 100$
 
-### Melatonin Treatement & Rapid Iterative Negative Geotaxis (Ring) Assay
+### Melatonin Treatment & Rapid Iterative Negative Geotaxis (RING) Assay
 
 A 4 mM melatonin treatment was prepared by first dissolving 13.94 mg of melatonin in a mixture of 1.50 mL ethanol and 14.85 mL normal saline (0.9% NaCl), which was then incorporated into standard *Drosophila* medium. Flies received this melatonin treatment for 5 days, with the melatonin-containing medium refreshed every other day to account for compound degradation. 
 
@@ -108,7 +108,7 @@ where W$_d$(t) represents the dry mass at time t and W$_d$(0) is the initial dry
 
 ## Results
 
-### Rapid Iterative Negative Geotaxis (Ring) Assay
+### Rapid Iterative Negative Geotaxis (RING) Assay
 
 ```{figure} images/qu_fig_1.png
 :name: Figure_1
@@ -179,7 +179,7 @@ The progressive mass loss at each time point indicates ongoing hydrolytic breakd
 
 The results of this study highlight both the neuroprotective potential of melatonin in a *Drosophila* model of TBI and the viability of a carbomer-agarose hydrogel as a simple, biocompatible sustained-release delivery platform. While the overall data support the value of this combined therapeutic approach, several limitations must be considered when interpreting and extrapolating these findings, as they influence the validity and reproducibility of the conclusions drawn. 
 
-## TBI Induction Variability & Ring Assay Limitations
+## TBI Induction Variability & RING Assay Limitations
 
 A limitation of this study was the inconsistency of TBI induction using the HIT device. Although the device was calibrated to produce a mild injury characterized by an MI$_{24}$ index of approximately 19%, only a small subset of injury attempts produced mortality levels within the expected range—indicating the variability that accompanies HIT device construction. This lack of reproducibility likely stems from subtle differences in vial alignment or spring design and release mechanics, all of which can markedly influence injury severity. Such inconsistency introduces uncertainty into whether all injury groups experienced equivalent levels of TBI, complicating interpretation of recovery. 
 
