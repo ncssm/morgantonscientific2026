@@ -20,3 +20,17 @@ project:
   abbreviations:
     NCSSM: North Carolina School of Science and Mathematics
     NCC: neural correlates of consciousness
+  # These five sources are books, translations and a technical report that
+  # predate or sit outside the DOI system — Descartes' Discourse and
+  # Meditations, Cottingham's Cartesian companion, Sandberg & Bostrom's
+  # whole-brain-emulation roadmap, and Chalmers on mind uploading. Same
+  # mechanism the 2025 essays used for their non-DOI sources.
+  error_rules:
+    - rule: doi-exists
+      severity: ignore
+      keys:
+        - sandberg2008whole
+        - descartes2017discourse
+        - descartes1911meditations
+        - cottingham1985cartesian
+        - chalmers2014mind
