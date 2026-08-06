@@ -25,6 +25,10 @@ project:
       email: quach26a@ncssm.edu
       orcid: 0009-0005-4537-553X
       affiliation: ncssm
+      corresponding: true
+      roles:
+        - Investigation
+        - Writing – original draft
   subject: Biology
   abbreviations:
     IBD: Inflammatory Bowel Disease

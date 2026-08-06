@@ -201,17 +201,5 @@ As such, biochemical markers such as MDA would effectively link lipid peroxidati
 ## Conclusion
 
 The results of this study indicate that black garlic extract exhibits dose-dependent protective effects against DSS-induced intestinal barrier damage in *Drosophila melanogaster* due to its ability to scavenge reactive oxygen species and mitigate oxidative stress. Black garlic emerges as a promising candidate for accessible food-based treatments for attenuating gut permeability in IBD. Derived from a widely available food source and producible at home (rice cooker aging), this research demonstrates how natural compounds can be utilized as a therapeutic agent for chronic inflammatory conditions through cost-effective and patient-accessible interventions. 
-
-## Author Information
-Corresponding Author
-
-* Andy Quach, quach26a@ncssm.edu
-
-Author Contributions
-
-Experimentation was conducted and the manuscript was written by Quach.
-
-
-
 ## Acknowledgments
 The author expresses sincere gratitude to Mrs. Jennifer Williams and Dr. Mareca Lodge for their exceptional mentorship, guidance, and support throughout this research project. Special thanks to Ms. Lindsey Taylor for her laboratory management, assistance with equipment, and procurement of materials. The author is grateful to have worked alongside fellow peers Alex, Emma, Nicole, Monica, and Roshini. Another thanks to Stella Friedman for assistance with Drosophila husbandry and to Monica Rivera for assistance with the extraction procedure. This research was conducted in the Research in Biology laboratory at the North Carolina School of Science and Mathematics (NCSSM), Morganton, North Carolina, with financial support by the NCSSM Foundation. 

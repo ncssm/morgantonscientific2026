@@ -108,17 +108,5 @@ Several experiments could be performed to build on and refine these findings. Fi
 To directly test the proposed mechanism, future studies should measure markers of glucose metabolism in FLE-treated and untreated HD flies to determine whether FLE produces a measurable improvement in cellular energy availability. Analysis of photoreceptor degeneration using a pseudopupil assay would also provide a valuable insight regarding neurodegeneration.
 
 Additionally, identifying which specific bioactive compounds in FLE are responsible for the observed effects would be important toward understanding the mechanism of action. Increasing replication in the feeding and survival assays would increase reliability and consistency of data across all measures. 
-
-## Author Information
-Corresponding Author
-
-* Monica Rivera, rivera26m@ncssm.edu
-
-Author Contributions
-
-Experimentation was conducted and the manuscript was written by Rivera.
-
-
-
 ## Acknowledgments
 My sincere gratitude goes to Mrs. Jennifer Williams and Dr. Mareca Lodge for their support and mentorship throughout this project. I also thank my Research in Biology peers—Alex, Emma, Nicole, Roshini, and Andy—as well as the entire Research in Science cohort, especially Alvin, for their encouragement and collaboration. Finally, I am grateful to the Research in Biology program at the North Carolina School of Science and Mathematics for making this work possible.

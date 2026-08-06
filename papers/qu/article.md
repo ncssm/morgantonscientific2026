@@ -228,17 +228,5 @@ While *Drosophila* models provided valuable insights into melatonin's efficacy, 
 Furthermore, research into effective delivery methods for the hydrogel in vertebrate models is needed—whether through direct injection to the injury site, surgical implantation, or other minimally invasive approaches—to ensure it can be practically and safely administered in clinical settings.
 
 Ultimately, by extending melatonin's neuroprotective effects, this approach could reduce oxidative stress, modulate inflammation, and support neuronal survival, potentially enhancing recovery and improving functional outcomes for those suffering from TBI. Such innovations are crucial in moving beyond symptom management and toward therapies that truly repair the brain’s injury, providing hope for more effective, long-lasting treatments in the future.
-
-## Author Information
-Corresponding Author
-
-* Alvin L. Qu, qu26alvin@ncssm.edu
-
-Author Contributions
-
-Experimentation was conducted and the manuscript was written by Qu.
-
-
-
 ## Acknowledgments
 Sincerest gratitude is extended to Dr. W. Tandy Grubbs for his unwavering guidance and expertise. Appreciation is also due to my Research in Chemistry peers—Audrey, Josh, Pippa, Stella, and Tarini—and to the wider Research in Science cohort, particularly Juliet and Monica. Additional thanks to Mrs. Jennifer Williams and Ms. Lindsey Taylor for their invaluable support.

@@ -23,6 +23,10 @@ project:
       email: friedman26s@ncssm.edu
       orcid: 0009-0004-3894-125X
       affiliation: ncssm
+      corresponding: true
+      roles:
+        - Investigation
+        - Writing – original draft
   subject: Chemistry
 
   abbreviations:

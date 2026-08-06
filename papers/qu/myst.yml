@@ -23,6 +23,9 @@ project:
       email: qu26alvin@ncssm.edu
       orcid: 0009-0003-1242-0379
       affiliation: ncssm
+      roles:
+        - Investigation
+        - Writing – original draft
       corresponding: true
   abbreviations:
     NCSSM: North Carolina School of Science and Mathematics

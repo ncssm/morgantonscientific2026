@@ -23,6 +23,10 @@ project:
       email: rivera26m@ncssm.edu
       orcid: 0009-0007-1110-0946
       affiliation: ncssm
+      corresponding: true
+      roles:
+        - Investigation
+        - Writing – original draft
   abbreviations:
     HD: Huntington's Disease
     FLE: Fig Leaf Extract

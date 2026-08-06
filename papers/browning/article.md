@@ -229,16 +229,6 @@ While these findings do reveal clear trends, a few limitations should be acknowl
 Overall, these results model how small molecular interactions contribute to large-scale biological effects. While protonation and solvation alter electron density at the molecular level, this determines whether a signal is sent or received at the physiological level. These findings may contribute to the future development of treatments for neurological diseases. Specific molecular tailoring could improve how these types of drugs are utilized in the brain, or how neurotransmitter synthesis could be turned on or off as needed. The application of this study to medicine could open new doors in neurological treatment.
 
 From brain chemistry to computational chemistry, this study shows that even the most important biological functions are determined by the smallest intermolecular changes.
-
-## Author Information
-Corresponding Author
-
-* Lexie Browning, browning26l@ncssm.edu
-
-Author Contributions
-
-Experimentation was conducted and the manuscript was written by Browning.
-
 ## Acknowledgements
 
 Appreciation to the Burroughs Welcome Fund (http://bwfund.org) and the North Carolina Science, Mathematics, and Technology Center (http://ncsmt.org, RTP) for their funding support for the North Carolina High School Computational Chemistry Server. Appreciation is also expressed to the NCSSM Department of Science; Dr. Amy Sheck, Dean; and special thanks to Mr. Gotwals, instructor.
