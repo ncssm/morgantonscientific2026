@@ -114,6 +114,32 @@ vanish. Always leave a comment saying why.
 This must be declared **per article** — a single central declaration was tested and did not
 propagate.
 
+### What `error_rules` cannot do
+
+**It cannot waive a check the venue marks as required.** `error_rules` is submitter-side, so it only
+reaches checks about facts the submitter owns. `doi-exists` is waivable — "this 1637 treatise has no
+DOI" is a legitimate claim for an author to make. `authors-have-credit-roles` is not: whether
+contributions must be declared is the venue's policy, not the submitter's.
+
+Volume 3 established this the hard way. With `authors-have-credit-roles` the check failed identically
+under `warn` **and** under `ignore`, while `doi-exists: ignore` worked in the very same run:
+
+```
+❯ frontmatter (13/14 tests passed)
+    × CRediT Roles: Akhilesh Karthik does not have any CRediT Roles
+❯ content (4/5 tests passed, 1 optional)
+    ↓ DOI Exists: Citation without DOI explicitly ignored: descartes2017discourse
+```
+
+Note the two shapes: a waived check becomes **optional** (`↓`) and stops counting; an unwaivable one
+stays **failed** (`×`). Watch the per-section tally, not the banner — the banner reads
+`Curvenote Checks ✓✓✓ 🚀` even when a check has failed and the job exits 1.
+
+**An unrecognized or unwaivable rule id fails silently** — no "unknown rule" warning. A rule that
+does nothing looks exactly like a rule that works until you read the tally. If a waiver doesn't take
+effect, the remaining route is to ask Curvenote to change the check for the collection; there is
+nothing to fix in the repository.
+
 ---
 
 ## 3. `article.md`
