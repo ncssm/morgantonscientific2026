@@ -102,6 +102,7 @@ Loop C was 12.9m long and incorporated a small staircase with an Airex Pad (45 x
 :name: Figure_3
 :align: center
 
+Digital representation of Loop C showing staircase and cones
 ```
 
 ### Statistics
@@ -155,7 +156,7 @@ Time to complete all loops in seconds by session
 
 **Significance of each Loop in each Session**
 
-```{table} A chart showing the significance of the time to complete each loop in each session
+```{table} A table showing the significance of the time to complete each loop in each session
 :name: Table_2
 :align: center
 
@@ -168,7 +169,7 @@ Time to complete all loops in seconds by session
 | A,1.1 |  |  | C | D |
 | C,3 |  |  | C | D |
 | A,1 |  |  | C | D |
-| C,3 |  |  |  | D |
+| C,1 |  |  |  | D |
 | C,1.1 |  |  |  | D |
 ```
 
