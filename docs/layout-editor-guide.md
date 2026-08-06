@@ -95,15 +95,21 @@ project:
       severity: ignore
       keys: [descartes2017discourse, chalmers2014mind]
     - rule: authors-have-credit-roles
-      severity: warning
+      severity: warn
 ```
 
 Rule ids include `abstract-exists`, `authors-exist`, `authors-corresponding`,
 `authors-have-affiliations`, `authors-have-orcid`, `authors-have-credit-roles`, `doi-exists`,
-`doi-link-valid`. Severities: `error`, `warning`, `info`, `ignore`.
+`doi-link-valid`.
 
-**Prefer `warning` to `ignore`.** A warning keeps the gap visible in every check run; `ignore` makes
-it vanish. Always leave a comment saying why.
+**Severity is one of exactly three values: `ignore`, `warn`, `error`.** Not `warning` — that is
+rejected as an invalid value, and the *entire rule is discarded*, so the check silently reverts to
+`error` and fails. Volume 3 lost a full round of CI to this. The rejection does appear in the log
+(`⛔️ myst.yml 'severity' invalid value`), but it scrolls past well above the check results, so what
+you notice is a check you thought you had waived still failing.
+
+**Prefer `warn` to `ignore`.** A warning keeps the gap visible in every check run; `ignore` makes it
+vanish. Always leave a comment saying why.
 
 This must be declared **per article** — a single central declaration was tested and did not
 propagate.
@@ -285,6 +291,7 @@ Every one of these was real. If you're checking nothing else, check these.
 | Same work cited by key *and* DOI URL | friedman | Duplicate reference-list entry |
 | Trailing `---` at end of file | 2 articles | Stray horizontal rule |
 | Prose `## Author Information` section | 5 articles | Duplicates frontmatter |
+| `severity: warning` instead of `warn` | 10 articles | Rule discarded; check silently reverts to `error` |
 
 ---
 

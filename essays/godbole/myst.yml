@@ -33,7 +33,7 @@ project:
   # mechanism the 2025 essays used for their non-DOI sources.
   error_rules:
     - rule: authors-have-credit-roles
-      severity: warning
+      severity: warn
     - rule: doi-exists
       severity: ignore
       keys:
