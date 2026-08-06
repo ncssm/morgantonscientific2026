@@ -5,6 +5,12 @@ project:
   id: morganton-2026-stephan
   thumbnail: "images/figure5.png"
   title: "Exercise-based Interventions in Parkinson's Disease: A Pilot Study"
+  description: >-
+    Twelve participants completed a three-session obstacle-course intervention aimed at
+    improving gait in Parkinson's disease, with gait initiation and steady-state gait measured
+    before and after. Errors and reaction time fell significantly, and the first step of gait
+    initiation lengthened, though other gait parameters were unchanged. The authors present it
+    as a feasible pilot warranting longer study.
   keywords:
     - Parkinson's Disease
     - Exercise Intervention

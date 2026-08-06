@@ -6,6 +6,11 @@ project:
   thumbnail: "../../templates/ncssm-preface/logo.png"
   title: >-
     Personal Identity and Mind Uploading: A Cartesian Analysis
+  description: >-
+    Advances in brain mapping have made mind uploading a live question: if the structure and
+    function of a brain can be simulated, does the resulting system preserve personal identity?
+    This essay applies Descartes' dualism to argue that it does not, since a scan reproduces the
+    pathways through which the mind operates rather than the thinking substance itself.
   keywords:
     - Mind Uploading
     - Personal Identity

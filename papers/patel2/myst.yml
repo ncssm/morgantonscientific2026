@@ -7,6 +7,11 @@ project:
   title: >-
     Analysis of Wolbachia Presence in Pyrrharctia and Boisea (Woolly Worms and
     Boxelder Bugs)
+  description: >-
+    Wolbachia infection was surveyed in boxelder bugs and woolly worms collected in Burke
+    County, North Carolina. DNA extracts were screened by PCR using arthropod COI primers for
+    species confirmation and Wolbachia 16S rRNA primers for detection. Four of five boxelder
+    bugs and both woolly worms tested positive, with species identity confirmed by sequencing.
   keywords:
     - Wolbachia
     - Endosymbiont

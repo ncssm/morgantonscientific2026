@@ -6,6 +6,11 @@ project:
   id: morganton-2026-rivera
   thumbnail: "images/rivera_fig_1.png"
   title: "Investigating the Therapeutic Potential of Ficus carica (Fig) Leaf Extract for Huntington's Disease Treatment in Drosophila melanogaster (Fruit Fly) Model"
+  description: >-
+    Ficus carica leaf extract, known to lower blood glucose, was tested in a Drosophila
+    melanogaster model of Huntington's disease, where impaired glucose uptake drives
+    neurodegeneration. At 8 mg/mL, flies climbed significantly better and lived longer than
+    controls; at 16 mg/mL neither effect appeared, indicating a narrow therapeutic window.
   keywords:
     - Huntington's Disease
     - Fig Leaf Extract

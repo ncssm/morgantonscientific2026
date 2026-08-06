@@ -6,6 +6,12 @@ project:
   thumbnail: "images/Effect of Matcha and Sweeteners on Locomotor of D. melanogaster.png"
   title: >-
     Do Sweeteners Alter the Effects of Matcha? The Study of Natural versus Artificial Sweeteners on the Cognitive and Locomotive Activity of Drosophila melanogaster
+  description: >-
+    Drosophila melanogaster were fed matcha green tea combined with either honey or Splenda over
+    ten days, and assessed for survival, weight, locomotor performance and memory. Survival and
+    memory were unaffected, but the high-sugar honey diet with matcha produced significantly
+    poorer climbing performance, suggesting matcha does not offset the costs of a high-sugar
+    diet.
   keywords:
     - Matcha
     - Artificial Sweeteners

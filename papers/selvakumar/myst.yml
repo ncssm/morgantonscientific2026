@@ -6,6 +6,12 @@ project:
   id: morganton-2026-selvakumar
   thumbnail: "images/Figure 1.png"
   title: Effects of Probiotic Yogurt Cultures from Dahi on Dextrose-Induced Type 2 Diabetic-like Symptoms in Caenorhabditis elegans
+  description: >-
+    Lactic acid bacteria isolated from dahi, a traditional Indian yogurt, were identified as
+    Lactobacillus delbrueckii by PCR and BLAST, then fed to Caenorhabditis elegans under high-
+    glucose conditions. Supplementation improved thrashing rates and reduced lipid accumulation
+    measured by Oil Red O staining, pointing to accessible fermented foods as a route to
+    metabolic health.
   subject: Biology
   keywords:
     - Type 2 Diabetes

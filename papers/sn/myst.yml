@@ -12,6 +12,12 @@ project:
   title: >-
     Comparative Evaluation of Neural Network Compression Techniques Across Cloud
     GPU, NPU, and CPU Platforms
+  description: >-
+    Pruning, INT8 quantization and knowledge distillation were compared across a cloud GPU, a
+    laptop NPU and a 2017 desktop CPU over 46 configurations on MNIST and CIFAR-10. The NPU ran
+    baseline inference three times faster than the cloud GPU, and the legacy CPU reached a
+    tenfold speedup on distilled models, challenging the assumption that inference belongs in
+    the cloud.
   keywords:
     - Model Compression
     - Neural Processing Unit

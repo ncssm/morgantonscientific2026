@@ -6,6 +6,12 @@ project:
   id: morganton-2026-patel1
   thumbnail: "../../templates/ncssm-preface/logo.png"
   title: Generalization Failures in AI-Based Leukemia Detection
+  description: >-
+    AI models for detecting leukemia from blood smears routinely report accuracies above 97%,
+    but those figures come almost entirely from single-institution testing. This review examines
+    how differences in staining protocol, slide preparation, scanners and imaging software
+    degrade performance across institutions, surveys the benchmark datasets in common use, and
+    argues that stain normalization remains underused.
   subject: Biology
   keywords:
     - Leukemia Detection

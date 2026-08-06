@@ -8,6 +8,12 @@ project:
     Evaluating the Attenuating Effects of LAB-Fermented Black Garlic (Allium
     sativum) in the Drosophila melanogaster Model of Inflammatory Bowel Disease
     by ROS Scavenging
+  description: >-
+    Black garlic was produced by heat-ageing raw garlic, and extracts prepared with and without
+    lactic acid bacteria fermentation. Antioxidant capacity was measured by DPPH assay, and gut
+    permeability assessed in Drosophila melanogaster given dextran sulfate sodium, using a Smurf
+    assay quantified in ImageJ. Both extracts reduced dye leakage dose-dependently, with
+    fermentation showing no antioxidant advantage.
   keywords:
     - Black Garlic
     - Inflammatory Bowel Disease

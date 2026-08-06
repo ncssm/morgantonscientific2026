@@ -6,6 +6,12 @@ project:
   thumbnail: "images/qu_fig_3.png"
   title: >-
     Synthesis and Characterization of Carbomer-Agarose Hydrogel for Sustained Melatonin Release to Promote Traumatic Brain Injury Recovery
+  description: >-
+    Melatonin shows promise for traumatic brain injury but is cleared from the body within
+    hours. This study pairs a behavioural assessment of melatonin's effect on motor recovery in
+    a Drosophila melanogaster model of TBI with characterisation of a carbomer-agarose hydrogel
+    designed to release it slowly. Treated flies recovered locomotor function, and the hydrogel
+    supported sustained release.
   keywords:
     - Traumatic Brain Injury
     - Hydrogel
