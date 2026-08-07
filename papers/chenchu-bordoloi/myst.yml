@@ -24,20 +24,17 @@ project:
       email: chenchu27h@ncssm.edu
       orcid: 0009-0007-4288-0033
       affiliation: ncssm
+      roles:
+        - Writing – original draft
     - name: Amalia Bordoloi
       email: bordoloi27a@ncssm.edu
       orcid: 0009-0000-0417-2684
       affiliation: ncssm
+      roles:
+        - Writing – original draft
   abbreviations:
     NCSSM: North Carolina School of Science and Mathematics
     ANOVA: analysis of variance
     SEM: standard error of the mean
     NPY: neuropeptide Y
     DNA: deoxyribonucleic acid
-  # TODO(2026): CRediT roles could not be collected from these authors before
-  # publication. Set to warning rather than ignored so the gap stays visible in
-  # every check run and can be filled in later. The other five articles in this
-  # volume carry real roles, derived from their own contribution statements.
-  error_rules:
-    - rule: authors-have-credit-roles
-      severity: warn

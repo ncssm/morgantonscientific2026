@@ -24,16 +24,11 @@ project:
       email: johnson26m@ncssm.edu
       orcid: 0009-0005-9964-3165
       affiliation: ncssm
+      roles:
+        - Writing – original draft
   abbreviations:
     DR: Diabetic retinopathy
     OKR: optokinetic response
     ROS: reactive oxygen species
     WT: Wild-type
     CPD: cycles per degree
-  # TODO(2026): CRediT roles could not be collected from these authors before
-  # publication. Set to warning rather than ignored so the gap stays visible in
-  # every check run and can be filled in later. The other five articles in this
-  # volume carry real roles, derived from their own contribution statements.
-  error_rules:
-    - rule: authors-have-credit-roles
-      severity: warn

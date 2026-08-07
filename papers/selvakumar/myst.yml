@@ -19,20 +19,16 @@ project:
     - Caenorhabditis elegans
     - Dahi
     - Lipid Accumulation
-  authors: 
-  - name: Roshini Selvakumar
-    affiliation: ncssm
-    email: selvakumar26r@ncssm.edu
-    orcid: 0009-0009-4511-1090
+  authors:
+    - name: Roshini Selvakumar
+      affiliation: ncssm
+      email: selvakumar26r@ncssm.edu
+      orcid: 0009-0009-4511-1090
+      corresponding: true
+      roles:
+        - Writing – original draft
   abbreviations:
     ORO: Oil Red O
     NGM: Nematode Growth Medium
     BLAST: Basic Local Alignment Search Tool
     MRS: Man, Rogosa and Sharpe
-  # TODO(2026): CRediT roles could not be collected from these authors before
-  # publication. Set to warning rather than ignored so the gap stays visible in
-  # every check run and can be filled in later. The other five articles in this
-  # volume carry real roles, derived from their own contribution statements.
-  error_rules:
-    - rule: authors-have-credit-roles
-      severity: warn

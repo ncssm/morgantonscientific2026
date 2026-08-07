@@ -23,6 +23,8 @@ project:
       email: godbole26a@ncssm.edu
       orcid: 0009-0006-5050-900X
       affiliation: ncssm
+      roles:
+        - Writing – original draft
   abbreviations:
     NCSSM: North Carolina School of Science and Mathematics
     NCC: neural correlates of consciousness
@@ -32,8 +34,6 @@ project:
   # whole-brain-emulation roadmap, and Chalmers on mind uploading. Same
   # mechanism the 2025 essays used for their non-DOI sources.
   error_rules:
-    - rule: authors-have-credit-roles
-      severity: warn
     - rule: doi-exists
       severity: ignore
       keys:

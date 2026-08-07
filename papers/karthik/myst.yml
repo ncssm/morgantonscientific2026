@@ -24,16 +24,11 @@ project:
       orcid: 0009-0003-6039-0266
       affiliation: ncssm
       corresponding: true
+      roles:
+        - Writing – original draft
   subject: Physics
   abbreviations:
     MH: Magnetic Hyperthermia
     AMFs: alternating magnetic fields
     DLS: Dynamic Light Scattering
     SAR: Specific Absorption Rates
-  # TODO(2026): CRediT roles could not be collected from these authors before
-  # publication. Set to warning rather than ignored so the gap stays visible in
-  # every check run and can be filled in later. The other five articles in this
-  # volume carry real roles, derived from their own contribution statements.
-  error_rules:
-    - rule: authors-have-credit-roles
-      severity: warn

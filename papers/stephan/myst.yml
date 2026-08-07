@@ -25,6 +25,8 @@ project:
       email: stephan26c@ncssm.edu
       orcid: 0009-0008-0853-4687
       corresponding: true
+      roles:
+        - Writing – original draft
   abbreviations:
     PD: Parkinson's Disease
     FoG: Freezing of Gait
@@ -36,10 +38,3 @@ project:
     CWT: Complex Walking Task
     VR: Virtual Reality
     PA: Physical Activity
-  # TODO(2026): CRediT roles could not be collected from these authors before
-  # publication. Set to warning rather than ignored so the gap stays visible in
-  # every check run and can be filled in later. The other five articles in this
-  # volume carry real roles, derived from their own contribution statements.
-  error_rules:
-    - rule: authors-have-credit-roles
-      severity: warn

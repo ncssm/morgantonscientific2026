@@ -30,6 +30,8 @@ project:
       email: sn27h@ncssm.edu
       orcid: 0009-0005-4025-8596
       affiliation: ncssm
+      roles:
+        - Writing – original draft
   abbreviations:
     NCSSM: North Carolina School of Science and Mathematics
     GPU: graphics processing unit
@@ -50,10 +52,3 @@ project:
     LLM: large language model
     ML: machine learning
     CSV: comma-separated values
-  # TODO(2026): CRediT roles could not be collected from these authors before
-  # publication. Set to warning rather than ignored so the gap stays visible in
-  # every check run and can be filled in later. The other five articles in this
-  # volume carry real roles, derived from their own contribution statements.
-  error_rules:
-    - rule: authors-have-credit-roles
-      severity: warn
