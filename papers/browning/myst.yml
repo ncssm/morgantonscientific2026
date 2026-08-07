@@ -1,0 +1,31 @@
+version: 1
+extends:
+  - ../../morganton2026.yml
+project:
+  id: morganton-2026-browning
+  thumbnail: "images/browning_fig_9.png"
+  title: >-
+    From Brain Chemistry to Computational Chemistry: Modeling Protonation and
+    Solvation Effects on Major Neurotransmitters
+  description: >-
+    Dopamine, serotonin and epinephrine were modeled with density functional theory at the
+    B3LYP/6-31G(d) level across neutral, protonated, gas-phase and solvated states. Protonation
+    sharply raised dipole moment while lowering orbital energies, and solvation increased
+    polarizability. The author argues that dipole moment is a more meaningful descriptor of
+    neurotransmitter behavior than orbital energy change.
+  keywords:
+    - Neurotransmitters
+    - Protonation
+    - Solvation
+    - Density Functional Theory
+    - B3LYP
+  authors:
+    - name: Lexie Browning
+      email: browning26l@ncssm.edu
+      orcid: 0009-0006-7158-659X
+      affiliation: ncssm
+      corresponding: true
+      roles:
+        - Investigation
+        - Writing – original draft
+  subject: Chemistry

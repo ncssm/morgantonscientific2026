@@ -1,0 +1,34 @@
+version: 1
+extends:
+  - ../../morganton2026.yml
+project:
+  id: morganton-2026-karthik
+  thumbnail: "images/nanoparticles synthesized.jpg"
+  title: >-
+    Engineering a Low-Cost Environment for Magnetic Hyperthermia: From Nanoparticle Synthesis to Alternating Magnetic Field Testing
+  description: >-
+    Magnetic hyperthermia research is limited by the cost of equipment. Magnetite nanoparticles
+    were synthesized by coprecipitation and characterized with UV-Vis and a low-cost dynamic
+    light scattering instrument. An initial coil-based alternating field proved too weak, so the
+    setup pivoted to a motorized rotating magnet, which raised thermochromic phantom tissue by
+    1.5 degrees Celsius in 15 minutes.
+  keywords:
+    - Magnetic Hyperthermia
+    - Magnetite Nanoparticles
+    - Dynamic Light Scattering
+    - Rotating Magnetic Field
+    - Thermochromic Phantom Tissue
+  authors:
+    - name: Akhilesh Karthik
+      email: karthik26a@ncssm.edu
+      orcid: 0009-0003-6039-0266
+      affiliation: ncssm
+      corresponding: true
+      roles:
+        - Writing – original draft
+  subject: Physics
+  abbreviations:
+    MH: Magnetic Hyperthermia
+    AMFs: alternating magnetic fields
+    DLS: Dynamic Light Scattering
+    SAR: Specific Absorption Rates

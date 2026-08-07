@@ -1,0 +1,36 @@
+# See docs at: https://mystmd.org/guide/frontmatter
+version: 1
+extends:
+  - ../../morganton2026.yml
+project:
+  id: morganton-2026-rivera
+  thumbnail: "images/rivera_fig_1.png"
+  title: "Investigating the Therapeutic Potential of Ficus carica (Fig) Leaf Extract for Huntington's Disease Treatment in Drosophila melanogaster (Fruit Fly) Model"
+  description: >-
+    Ficus carica leaf extract, known to lower blood glucose, was tested in a Drosophila
+    melanogaster model of Huntington's disease, where impaired glucose uptake drives
+    neurodegeneration. At 8 mg/mL, flies climbed significantly better and lived longer than
+    controls; at 16 mg/mL neither effect appeared, indicating a narrow therapeutic window.
+  keywords:
+    - Huntington's Disease
+    - Fig Leaf Extract
+    - Neurodegeneration
+    - Insulin Signaling
+    - Glucose Metabolism
+  subject: Biology
+  authors:
+    - name: Monica Rivera
+      email: rivera26m@ncssm.edu
+      orcid: 0009-0007-1110-0946
+      affiliation: ncssm
+      corresponding: true
+      roles:
+        - Investigation
+        - Writing – original draft
+  abbreviations:
+    HD: Huntington's Disease
+    FLE: Fig Leaf Extract
+    T2DM: Type 2 Diabetes Mellitus
+    Htt: Huntingtin
+    IRS2: Insulin Receptor Substrate 2
+    polyQ: Polyglutamine

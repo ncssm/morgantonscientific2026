@@ -1,0 +1,40 @@
+version: 1
+extends:
+  - ../../morganton2026.yml
+project:
+  id: morganton-2026-quach
+  thumbnail: "images/Representative images of flies used for quantification of abdominal dye dissemination post-treatment.png"
+  title: >-
+    Evaluating the Attenuating Effects of LAB-Fermented Black Garlic (Allium
+    sativum) in the Drosophila melanogaster Model of Inflammatory Bowel Disease
+    by ROS Scavenging
+  description: >-
+    Black garlic was produced by heat-aging raw garlic, and extracts prepared with and without
+    lactic acid bacteria fermentation. Antioxidant capacity was measured by DPPH assay, and gut
+    permeability assessed in Drosophila melanogaster given dextran sulfate sodium, using a Smurf
+    assay. Both extracts reduced dye leakage dose-dependently, with fermentation showing no
+    antioxidant advantage.
+  keywords:
+    - Black Garlic
+    - Inflammatory Bowel Disease
+    - Intestinal Permeability
+    - Reactive Oxygen Species
+    - Lactic Acid Bacteria
+  authors:
+    - name: Andy Quach
+      email: quach26a@ncssm.edu
+      orcid: 0009-0005-4537-553X
+      affiliation: ncssm
+      corresponding: true
+      roles:
+        - Investigation
+        - Writing – original draft
+  subject: Biology
+  abbreviations:
+    IBD: Inflammatory Bowel Disease
+    ROS: Reactive Oxygen Species
+    DSS: Dextran Sulfate Sodium
+    MDA: Malondialdehyde
+    LAB: Lactic Acid Bacteria
+    BGE: Black Garlic Extract
+    F-BGE: Fermented Black Garlic Extract

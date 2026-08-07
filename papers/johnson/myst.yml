@@ -1,0 +1,34 @@
+version: 1
+extends:
+  - ../../morganton2026.yml
+project:
+  id: morganton-2026-johnson
+  thumbnail: "images/zfish embryo hrt rate 48hpf.png"
+  title: >-
+    A Comparative Analysis of the Effects of Astaxanthin and β-Sitostenone on a Danio rerio Model of Diabetic Retinopathy
+  description: >-
+    Diabetic retinopathy was induced in zebrafish embryos with 130 mM dextrose, then treated
+    with astaxanthin or beta-sitostenone. Both compounds reduced disease-associated tachycardia,
+    but only beta-sitostenone restored visual function in an optokinetic response assay,
+    rescuing saccadic frequency even at high rotational velocities. The author identifies it as
+    a candidate for non-invasive oral therapy.
+  keywords:
+    - Diabetic Retinopathy
+    - Astaxanthin
+    - β-Sitostenone
+    - Danio rerio
+    - Optokinetic Response
+  subject: Biology
+  authors:
+    - name: Mary Emma Johnson
+      email: johnson26m@ncssm.edu
+      orcid: 0009-0005-9964-3165
+      affiliation: ncssm
+      roles:
+        - Writing – original draft
+  abbreviations:
+    DR: Diabetic retinopathy
+    OKR: optokinetic response
+    ROS: reactive oxygen species
+    WT: Wild-type
+    CPD: cycles per degree

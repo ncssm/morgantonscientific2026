@@ -1,0 +1,40 @@
+version: 1
+extends:
+  - ../../morganton2026.yml
+project:
+  id: morganton-2026-chenchu
+  thumbnail: "images/fig2.png"
+  title: >-
+    Effects of Caffeine Concentration on Survivability, Locomotor Activity, and Memory in Drosophila melanogaster
+  description: >-
+    Wild-type Drosophila melanogaster were reared on sugar diets containing 0.01%, 0.025% or
+    0.05% caffeine and assessed for survival, climbing performance and short-term memory in a
+    Y-maze. Moderate caffeine left survival unaffected, while higher concentrations trended
+    toward reduced locomotor function and memory, though the differences did not reach
+    significance.
+  subject: Biology
+  keywords:
+    - Caffeine
+    - Drosophila melanogaster
+    - Negative Geotaxis
+    - Short-Term Memory
+    - Survivability
+  authors:
+    - name: Harshika Chenchu
+      email: chenchu27h@ncssm.edu
+      orcid: 0009-0007-4288-0033
+      affiliation: ncssm
+      roles:
+        - Writing – original draft
+    - name: Amalia Bordoloi
+      email: bordoloi27a@ncssm.edu
+      orcid: 0009-0000-0417-2684
+      affiliation: ncssm
+      roles:
+        - Writing – original draft
+  abbreviations:
+    NCSSM: North Carolina School of Science and Mathematics
+    ANOVA: analysis of variance
+    SEM: standard error of the mean
+    NPY: neuropeptide Y
+    DNA: deoxyribonucleic acid
