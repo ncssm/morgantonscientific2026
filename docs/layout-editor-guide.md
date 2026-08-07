@@ -289,7 +289,42 @@ in "Figure 1" — doesn't exist in the source at all.
 apply the **`draft`** label, and review the Curvenote preview. In draft mode checks report without
 blocking, so you see problems before anything is submitted.
 
----
+### Keep papers and essays in separate pushes
+
+> **Check [curvenote/actions#57](https://github.com/curvenote/actions/issues/57) before you start.**
+> If it has been fixed and the workflows updated to that release, everything below is unnecessary and
+> the volume can go in as a single PR again.
+
+`draft.yml` and `submit.yml` each call Curvenote's reusable workflow **twice** — once for `papers/*`
+(kind `original`) and once for `essays/*` (kind `essay`). Artifacts are named `submit-<id>` in one
+namespace shared by the whole run, so when both calls produce artifacts, each call's `summary` job
+downloads the other's, fails to find them in its own matrix, and crashes:
+
+```
+##[error]TypeError: Cannot read properties of undefined (reading 'working-directory')
+```
+
+Every article still builds, checks and submits correctly — **only the summaries fail, and the run
+reports red.** That is the trap: it looks like a failed publication and isn't.
+
+The workaround is to keep any one push to a **single populated group**. The empty group's summary
+finds no artifacts, reports `📭 No submissions available to inspect.`, and exits clean.
+
+Volume 3 shipped as two PRs, merged in order:
+
+1. **All papers, plus shared configuration** — `morganton2026.yml`, `frontmatter/`, `templates/`,
+   `docs/`. Shared files match neither path glob, so they don't affect either matrix, but the
+   articles inherit them — so they must land first or the essay previews against stale config.
+2. **The essay alone.**
+
+Two pushes, two green runs, all 15 submitted.
+
+Cut the second PR from `main`, **not** from the first PR's branch. GitHub computes changed files from
+the merge base, so a branch cut from the first PR carries all of its articles into the matrix and
+reproduces the exact crash you are avoiding.
+
+This bites the moment a volume has two kinds. It went unnoticed in 2025 only because articles landed
+one PR at a time, which keeps a single group populated by accident.
 
 ## 8. Mistakes from Volume 3
 
@@ -318,6 +353,7 @@ Every one of these was real. If you're checking nothing else, check these.
 | Trailing `---` at end of file | 2 articles | Stray horizontal rule |
 | Prose `## Author Information` section | 5 articles | Duplicates frontmatter |
 | `severity: warning` instead of `warn` | 10 articles | Rule discarded; check silently reverts to `error` |
+| Papers and essays pushed together | whole volume | `summary` jobs crash; run reports red though all 15 submit |
 
 ---
 
