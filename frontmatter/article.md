@@ -4,7 +4,7 @@ title: Foreword and Editors' Note
 
 ```{raw:typst}
 #set align(right)
-#text(size: 18pt)[
+#text(size: 17pt)[
 ```
 
 > “The most beautiful experience we can have is the mysterious. \
