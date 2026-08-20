@@ -147,6 +147,7 @@ nothing to fix in the repository.
 ```markdown
 ---
 title: Exactly the same string as in myst.yml
+short_title: A one-line version, for the running header
 abstract: |
     One paragraph. No citations, no undefined abbreviations.
 ---
