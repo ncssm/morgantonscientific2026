@@ -2,6 +2,7 @@ version: 1
 extends:
   - ../../morganton2026.yml
 project:
+  doi: 10.62329/pdjt4767
   id: morganton-2026-patel2
   thumbnail: "images/fig4.png"
   title: >-

@@ -2,6 +2,7 @@ version: 1
 extends:
   - ../../morganton2026.yml
 project:
+  doi: 10.62329/xnej4256
   id: morganton-2026-karthik
   thumbnail: "images/nanoparticles synthesized.jpg"
   title: >-

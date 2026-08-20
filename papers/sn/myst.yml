@@ -2,6 +2,7 @@ version: 1
 extends:
   - ../../morganton2026.yml
 project:
+  doi: 10.62329/jgwp4527
   id: morganton-2026-sn
   thumbnail: "images/fig2.png"
   # Supplementary material is kept in the repo but excluded from MyST page

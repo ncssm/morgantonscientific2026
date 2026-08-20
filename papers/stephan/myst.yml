@@ -2,6 +2,7 @@ version: 1
 extends:
   - ../../morganton2026.yml
 project:
+  doi: 10.62329/vcgx2358
   id: morganton-2026-stephan
   thumbnail: "images/figure5.png"
   title: "Exercise-based Interventions in Parkinson's Disease: A Pilot Study"

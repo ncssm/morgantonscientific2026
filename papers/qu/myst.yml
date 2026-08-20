@@ -2,6 +2,7 @@ version: 1
 extends:
   - ../../morganton2026.yml
 project:
+  doi: 10.62329/vntw3288
   id: morganton-2026-qu
   thumbnail: "images/qu_fig_3.png"
   title: >-

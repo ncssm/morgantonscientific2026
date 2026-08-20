@@ -25,10 +25,7 @@ project:
       ror: https://ror.org/03zbydc22
   volume:
     number: 3
-  # TODO(2026): issue DOI must be minted for this volume.
-  # The 2025 value (10.62329/dwgm3685) is deliberately NOT carried over —
-  # reusing it would file 2026 articles under the 2025 issue record.
-  # issue:
-  #   doi:
+  issue:
+    doi: 10.62329/jnwd8866
 site:
   template: https://github.com/myst-templates/article-theme.git

@@ -2,6 +2,7 @@ version: 1
 extends:
   - ../../morganton2026.yml
 project:
+  doi: 10.62329/rvgg4448
   id: morganton-2026-friedman
   thumbnail: "images/24 hr RFU vs Time (FS).png"
   title: >-
