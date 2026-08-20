@@ -1,5 +1,6 @@
 ---
 title: Synthesis and Characterization of Carbomer-Agarose Hydrogel for Sustained Melatonin Release to Promote Traumatic Brain Injury Recovery.
+short_title: "Carbomer-Agarose Hydrogel for Sustained Melatonin Release"
 abstract: | 
     The therapeutic promise of melatonin in treating traumatic brain injury (TBI) is limited by its rapid metabolic clearance, motivating the investigation of both its neuroprotective properties and strategies to extend its efficacy. In this study, melatonin’s effects on post-injury recovery are assessed alongside the evaluation of a biocompatible carbomer–agarose hydrogel as a sustained-release delivery platform. Analysis of behavioral assay data indicates that melatonin treatment significantly improves motor recovery in a *Drosophila melanogaster* model of TBI, and characterization of the hydrogel system suggests that it supports sustained melatonin release and assists in overcoming its limitations.
 ---

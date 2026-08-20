@@ -1,5 +1,6 @@
 ---
 title: Investigating the Therapeutic Potential of Ficus carica (Fig) Leaf Extract for Huntington's Disease Treatment in Drosophila melanogaster (Fruit Fly) Model
+short_title: "Ficus carica Leaf Extract for Huntington's Disease in Drosophila"
 abstract: | 
     Huntington's disease (HD) is a fatal neurodegenerative disorder caused by a mutation in the HTT gene, leading to progressive neuronal dysfunction. HD is associated with impaired glucose uptake in the brain, which drives neurodegeneration. Prior research suggests that supporting insulin signaling and glucose metabolism can reduce neurodegeneration in HD models. *Ficus carica*, or fig leaf extract (FLE) has been shown to lower blood glucose, suggesting it may influence glucose metabolism and therefore ameliorate HD symptoms. This project investigated FLE's potential to improve behavioral outcomes in a *Drosophila melanogaster* HD model.
     

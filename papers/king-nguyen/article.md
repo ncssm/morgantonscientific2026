@@ -1,5 +1,6 @@
 ---
 title: "Do Sweeteners Alter the Effects of Matcha? The Study of Natural versus Artificial Sweeteners on the Cognitive and Locomotive Activity of Drosophila melanogaster"
+short_title: "Do Sweeteners Alter the Effects of Matcha?"
 abstract:
     This study investigated whether the type of sweetener, natural (honey) or artificial (Splenda), alters the physiological and behavioral benefits of matcha green tea in *Drosophila melanogaster*. Over a 10-day experimental period, flies were administered dietary inclusions of matcha in combination with either honey or Splenda. This study assessed survival rates, body weight, locomotor performance, and cognitive performance (learning and memory). Results indicated that while survival and memory were not significantly impacted across groups, the high-sugar honey diet supplemented with matcha revealed a significantly lower locomotor performance compared to other dietary treatments. These findings suggest that the benefits of matcha do not alter the negative effects of a high-sugar diet. This study highlights the importance of dietary context when evaluating the health-promoting aspect of functional foods.
 ---

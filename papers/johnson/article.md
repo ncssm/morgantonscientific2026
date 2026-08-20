@@ -1,5 +1,6 @@
 ---
 title: A Comparative Analysis of the Effects of Astaxanthin and β-Sitostenone on a Danio rerio Model of Diabetic Retinopathy
+short_title: "Astaxanthin and β-Sitostenone in a Danio rerio Model of Diabetic Retinopathy"
 abstract:
     Diabetic retinopathy (DR) is the world’s leading cause of blindness in the working-age population. The current and most common treatments of DR include intravitreal injections and laser photocoagulation, both of which are invasive and associated with significant side-effects. As interest in non-invasive therapies increases, orally administered compounds with anti-oxidative and anti-angiogenic properties warrant investigation. This study comparatively evaluated the therapeutic potential of astaxanthin and β-sitostenone as oral treatments for DR using a zebrafish embryo (*Danio rerio*) model.
     
