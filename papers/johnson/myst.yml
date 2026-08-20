@@ -2,6 +2,8 @@ version: 1
 extends:
   - ../../morganton2026.yml
 project:
+  first_page: 44
+  last_page: 53
   doi: 10.62329/fmfg9247
   id: morganton-2026-johnson
   thumbnail: "images/zfish embryo hrt rate 48hpf.png"

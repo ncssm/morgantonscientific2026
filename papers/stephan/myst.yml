@@ -2,6 +2,8 @@ version: 1
 extends:
   - ../../morganton2026.yml
 project:
+  first_page: 147
+  last_page: 160
   doi: 10.62329/vcgx2358
   id: morganton-2026-stephan
   thumbnail: "images/figure5.png"

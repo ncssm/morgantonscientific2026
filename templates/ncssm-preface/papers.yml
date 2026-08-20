@@ -1,9 +1,51 @@
-# Table of contents data for the printed preface.
-#
-# GENERATED FILE — written by scripts/generate_summary.sh as part of
-# scripts/make_pdfs.sh, once every article has been paginated.
-#
-# Intentionally empty for Volume 3. The Volume 2 (2025) contents that previously
-# lived here were removed so that a stale table of contents cannot be printed by
-# accident before this volume is paginated.
-[]
+- title: 'Words from the Editors'
+  page: 5
+- title: 'Essays'
+  page: 6
+- title: 'Personal Identity and Mind Uploading: A Cartesian Analysis'
+  author: 'Asmi Godbole'
+  page: 7
+- title: 'Papers'
+  page: 10
+- title: 'From Brain Chemistry to Computational Chemistry: Modeling Protonation and Solvation Effects on Major Neurotransmitters'
+  author: 'Lexie Browning'
+  page: 11
+- title: 'Effects of Caffeine Concentration on Survivability, Locomotor Activity, and Memory in Drosophila melanogaster'
+  author: 'Harshika Chenchu, Amalia Bordoloi'
+  page: 27
+- title: 'Effects of Epigallocatechin-3-gallate on β-amyloid (25-35) Aggregation: an Application to Sporadic Inclusion Body Myositis'
+  author: 'Stella D. Friedman'
+  page: 36
+- title: 'A Comparative Analysis of the Effects of Astaxanthin and β-Sitostenone on a Danio rerio Model of Diabetic Retinopathy'
+  author: 'Mary Emma Johnson'
+  page: 44
+- title: 'Engineering a Low-Cost Environment for Magnetic Hyperthermia: From Nanoparticle Synthesis to Alternating Magnetic Field Testing'
+  author: 'Akhilesh Karthik'
+  page: 54
+- title: 'Do Sweeteners Alter the Effects of Matcha? The Study of Natural versus Artificial Sweeteners on the Cognitive and Locomotive Activity of Drosophila melanogaster'
+  author: 'Karalyn King, Helen Nguyen'
+  page: 65
+- title: 'Generalization Failures in AI-Based Leukemia Detection'
+  author: 'Ayush Patel'
+  page: 76
+- title: 'Analysis of Wolbachia Presence in Pyrrharctia and Boisea (Woolly Worms and Boxelder Bugs)'
+  author: 'Ayush Patel'
+  page: 82
+- title: 'Synthesis and Characterization of Carbomer-Agarose Hydrogel for Sustained Melatonin Release to Promote Traumatic Brain Injury Recovery'
+  author: 'Alvin L. Qu'
+  page: 92
+- title: 'Evaluating the Attenuating Effects of LAB-Fermented Black Garlic (Allium sativum) in the Drosophila melanogaster Model of Inflammatory Bowel Disease by ROS Scavenging'
+  author: 'Andy Quach'
+  page: 105
+- title: 'Investigating the Therapeutic Potential of Ficus carica (Fig) Leaf Extract for Huntington''s Disease Treatment in Drosophila melanogaster (Fruit Fly) Model'
+  author: 'Monica Rivera'
+  page: 117
+- title: 'Effects of Probiotic Yogurt Cultures from Dahi on Dextrose-Induced Type 2 Diabetic-like Symptoms in Caenorhabditis elegans'
+  author: 'Roshini Selvakumar'
+  page: 125
+- title: 'Comparative Evaluation of Neural Network Compression Techniques Across Cloud GPU, NPU, and CPU Platforms'
+  author: 'Harri Sn'
+  page: 130
+- title: 'Exercise-based Interventions in Parkinson''s Disease: A Pilot Study'
+  author: 'Carter Stephan'
+  page: 147

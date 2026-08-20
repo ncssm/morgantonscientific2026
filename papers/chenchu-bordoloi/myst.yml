@@ -2,6 +2,8 @@ version: 1
 extends:
   - ../../morganton2026.yml
 project:
+  first_page: 27
+  last_page: 35
   doi: 10.62329/jchy5287
   id: morganton-2026-chenchu
   thumbnail: "images/fig2.png"

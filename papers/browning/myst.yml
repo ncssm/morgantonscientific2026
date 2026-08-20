@@ -2,6 +2,8 @@ version: 1
 extends:
   - ../../morganton2026.yml
 project:
+  first_page: 11
+  last_page: 26
   doi: 10.62329/dwfc7573
   id: morganton-2026-browning
   thumbnail: "images/browning_fig_9.png"

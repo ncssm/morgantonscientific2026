@@ -2,6 +2,8 @@ version: 1
 extends:
   - ../../morganton2026.yml
 project:
+  first_page: 105
+  last_page: 116
   doi: 10.62329/wcfy2487
   id: morganton-2026-quach
   thumbnail: "images/Representative images of flies used for quantification of abdominal dye dissemination post-treatment.png"
