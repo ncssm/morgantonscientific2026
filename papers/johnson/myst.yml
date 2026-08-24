@@ -32,3 +32,6 @@ project:
     ROS: reactive oxygen species
     WT: Wild-type
     CPD: cycles per degree
+    dpf: days post-fertilization
+    rpm: rotations per minute
+    ANOVA: analysis of variance
