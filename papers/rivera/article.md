@@ -10,7 +10,7 @@ abstract: |
 
 ## Introduction
 
-Huntington's Disease (HD) is a currently incurable, fatal neurodegenerative disorder that impairs voluntary movement, cognition, and behavior. It occurs in 0.005–0.01% of individuals in the Caucasian population and is characterized by choreiform movements, bradykinesia and rigidity, cognitive decline, depression, and other psychiatric symptoms [@saudou_biology_2016]. 
+Huntington's disease (HD) is a currently incurable, fatal neurodegenerative disorder that impairs voluntary movement, cognition, and behavior. It occurs in 0.005–0.01% of individuals in the Caucasian population and is characterized by choreiform movements, bradykinesia and rigidity, cognitive decline, depression, and other psychiatric symptoms [@saudou_biology_2016]. 
 
 HD is caused by a mutation in the *HTT* gene, which encodes the huntingtin (Htt) protein. In healthy individuals, the *HTT* gene contains 15 to 35 consecutive repetitions of the CAG (cytosine-adenine-guanine) codon. These CAG repeats translate into a polyglutamine (polyQ) domain—a long sequence of the amino acid glutamine. In HD, this chain exceeds 36 glutamines [@myers_huntingtons_2004]. The length of the polyQ chain is inversely proportional to the disease age of onset—40-50 repeats lead to adult-onset HD, while 50-120 repeats lead to a juvenile form of the disease [@squitieri_cag_2002]. The juvenile form, however, is rare and occurs in only 5% of cases [@saudou_biology_2016]. Within brain cells, affected Htt misfolds and forms aggregates with toxic properties [@hatters_protein_2008]. These aggregates disrupt normal cellular processes, leading to neurodegeneration and the aforementioned symptoms from HD.
 
