@@ -22,7 +22,7 @@ This project focuses on addressing the issue that experimentation on magnetic hy
 ### Iron Oxide Magnetite Magnetic Nanoparticle Synthesis
 The coprecipitation method was used to synthesize the nanoparticles. The initial procedure was modeled after a co-precipitation protocol established by Polymer Scope. The procedure used a 1:1 ratio by weight of iron(II) sulfate to iron(III) chloride that were stirred together in a large beaker of deionized water. Ammonium hydroxide was added dropwise to decrease the pH of the solution and result in the formation of magnetite nanoparticles as a precipitate. This initial method was unsuccessful and formed maghemite ($Fe_2$$O_3$).
 
-The second method of synthesis was a modification of the first method that was successful and utilized a different base and chemical ratios based on other conventional synthesis procedures [@ali_synthesis_2016]. The procedure involved using a 1:2 ratio by volume of 0.326M iron(II) sulfate to 0.326M iron(III) chloride. These were stirred together in an equal volume of deionized water at a speed of 450 RPM. After the solution homogenized a 1.9:1 ratio of 0.44M sodium hydroxide to total solution was added dropwise until the pH is greater than 9. Following this a magnet was used to separate the magnetite nanoparticles from the solution and the powder was rinsed multiple times with ethanol and deionized water.
+The second method of synthesis was a modification of the first method that was successful and utilized a different base and chemical ratios based on other conventional synthesis procedures [@ali_synthesis_2016]. The procedure involved using a 1:2 ratio by volume of 0.326M iron(II) sulfate to 0.326M iron(III) chloride. These were stirred together in an equal volume of deionized water at a speed of 450 RPM. After the solution homogenized a 1.9:1 ratio of 0.44M sodium hydroxide to total solution was added dropwise until the pH is greater than 9. Following this a magnet was used to separate the magnetite nanoparticles from the solution and the powder was rinsed multiple times with ethanol and deionized water (@Figure_2).
 ```{figure} images/iron oxide magnetite nanoparticles method.png
 :align: center
 :name: Figure_2
@@ -31,9 +31,11 @@ A visual representation of the method that was successful and utilized to synthe
 ```
 ### Nanoparticle Characterization
 ##### Dynamic Light Scattering
-A dynamic light scattering instrument was designed to approximate the size of the nanoparticles. It connects the relationship between particle size and the particle speed as a result of Brownian Motion, the random motion of all particles caused by collisions between molecules and thermal energy. The setup utilizes a laser that hits the particles and photodiodes at three angles (15°, 90°, and 165°) to measure the change in scatter of the light to analyze the motion of the particles. The instrument was designed based on the OpenDLS open-source project [@noauthor_opendls_nodate]. The design and hardware was modified to utilize input regarding the scatter from multiple angles. The instrument was designed with 3D printed parts, a laser, photodiodes, a circuit on a breadboard, and Arduino Uno R3, and a program to analyze data collected from the photodiodes. The photoresist is used to measure the change in scatter as a result of Brownian Motion. That data is then sent to the Arduino Uno R3 after the signals are amplified by a circuit. The data is read and analyzed on a computer using an autocorrelation function that extracts information on the time dependence of the signal with the presence of noise. The information from the autocorrelation function is utilized to determine the diffusion coefficient. The Diffusion coefficient along with other known variables can be plugged into the Stokes-Einstein equation. The code used was a modified version of the OpenDLS project that was altered for the properties of Iron Oxide Magnetite nanoparticles suspended in ethanol along with taking input from multiple different angles and combining the data collected and outputting an approximate particle size [@noauthor_opendls_nodate].
+A dynamic light scattering instrument was designed to approximate the size of the nanoparticles. It connects the relationship between particle size and the particle speed as a result of Brownian Motion, the random motion of all particles caused by collisions between molecules and thermal energy. The setup utilizes a laser that hits the particles and photodiodes at three angles (15°, 90°, and 165°) to measure the change in scatter of the light to analyze the motion of the particles. The instrument was designed based on the OpenDLS open-source project [@noauthor_opendls_nodate]. The design and hardware was modified to utilize input regarding the scatter from multiple angles. The instrument was designed with 3D printed parts, a laser, photodiodes, a circuit on a breadboard, and Arduino Uno R3, and a program to analyze data collected from the photodiodes (@Figure_3, @Figure_4). The photoresist is used to measure the change in scatter as a result of Brownian Motion. That data is then sent to the Arduino Uno R3 after the signals are amplified by a circuit (@Figure_5). The data is read and analyzed on a computer using an autocorrelation function that extracts information on the time dependence of the signal with the presence of noise. The information from the autocorrelation function is utilized to determine the diffusion coefficient. The Diffusion coefficient along with other known variables can be plugged into the Stokes-Einstein equation. The code used was a modified version of the OpenDLS project that was altered for the properties of Iron Oxide Magnetite nanoparticles suspended in ethanol along with taking input from multiple different angles and combining the data collected and outputting an approximate particle size [@noauthor_opendls_nodate].
 ```{figure} images/dynamic light scattering instrument.png
+:align: center
 :name: Figure_3
+
 A CAD model of the Dynamic Light Scattering instrument that was designed and 3D printed. An isometric view of the base (top left). A top view of the base of the instrument with the laser benign positioned on the rectangular section on the left, the test tube with suspended particles going in the circular ring on the right, and the colored boxes being the attachment locations of the photodiodes (top right). An isometric view of the entire instrument with the base, lid, and the cover that goes over the test tube (bottom).
 ```
 
@@ -55,7 +57,7 @@ A simplified version of the circuit diagram for one photodiode that is based on 
 A UV-Vis spectrophotometer was used to collect optical spectrum data on the nanoparticles. For this 0.1g of magnetite powder was added to 80mL of ethanol and the solution was put into the UV-Vis spectrophotometer after stirring the solution. The absorbance was measured across a spectral range from 190nm to 1100nm. Multiple samples of the same nanoparticles were tested to ensure precision and increase the accuracy of the data collected. This data was analyzed along with the dynamic light scattering instrument’s data in order to ensure consistency and some degree of accuracy.
 ### Simulating Magnetic Hyperthermia
 #### Fabricating Phantom Tissue
-Thermochromic phantom tissue was fabricated to simulate magnetic hyperthermia with a color changing gel designed to change color with heat and mimic human tissue. A 1:2 ratio by volume of glycerol to deionized water was used. They were stirred with a magnetic stirrer at 350 RPM while being heated to 90℃. Once the temperature reached 90℃, agar powder and a little thermochromic powder were added and stirred for 5 more minutes. The contents were transferred to a mold container and refrigerated until they were necessary to test the procedure.
+Thermochromic phantom tissue was fabricated to simulate magnetic hyperthermia with a color changing gel designed to change color with heat and mimic human tissue. A 1:2 ratio by volume of glycerol to deionized water was used. They were stirred with a magnetic stirrer at 350 RPM while being heated to 90℃. Once the temperature reached 90℃, agar powder and a little thermochromic powder were added and stirred for 5 more minutes. The contents were transferred to a mold container and refrigerated until they were necessary to test the procedure (@Figure_6).
 ```{figure} images/phantom tissue method.png
 :align: center
 :name: Figure_6
@@ -85,7 +87,7 @@ Multiple trials and trouble shooting was necessary during the method development
 
 A photograph of the nanoparticles synthesized in three trials. Trial 1 (right); Trial 2 (middle); Trial 3 (left)
 ```
-The synthesis procedure was successfully repeated multiple times proving that the procedure works and is reproducible. The pH measured at the end of each synthesis prior to purification were 12.33 for trial 1, 11.97 for trial 2, and 11.68 for trial 3.
+The synthesis procedure was successfully repeated multiple times proving that the procedure works and is reproducible (@Figure_9). The pH measured at the end of each synthesis prior to purification were 12.33 for trial 1, 11.97 for trial 2, and 11.68 for trial 3.
 ### Magnetite Nanoparticle Characterization
 ```{figure} images/data collected from the Dynamic Light Scattering.png
 :align: center
@@ -93,28 +95,28 @@ The synthesis procedure was successfully repeated multiple times proving that th
 
 Graph of the data collected from the Dynamic Light Scattering (DLS) instrument.
 ```
-This data from the DLS shows that there is evidence that the particles from each of the three trials are slightly different with the average size for each trial being larger than the previous trial. In addition, the instrument is precise as all the measurements for each trial are consistent and within the same general range. The accuracy of the instrument cannot be determined as the size could not be confirmed with other instruments like an electron microscope.
+The data from the DLS in @Figure_10 shows that there is evidence that the particles from each of the three trials are slightly different with the average size for each trial being larger than the previous trial. In addition, the instrument is precise as all the measurements for each trial are consistent and within the same general range. The accuracy of the instrument cannot be determined as the size could not be confirmed with other instruments like an electron microscope.
 ```{figure} images/spectral data from the UV-Vis Spectrophotometer.png
 :align: center
 :name: Figure_11
 
 Graph of all the collected spectral data from the UV-Vis Spectrophotometer.
 ```
-These UV-Vis spectrums show that the particles synthesized had similar general spectrums showing that the synthesis procedure is repeatable and that the particles synthesized have similar optical properties with there being very few irregularities.
+The UV-Vis spectrums in @Figure_11 show that the particles synthesized had similar general spectrums showing that the synthesis procedure is repeatable and that the particles synthesized have similar optical properties with there being very few irregularities.
 ```{figure} images/UV-Vis average spectrums for each synthesis trial.png
 :align: center
 :name: Figure_12
 
 Graph of the UV-Vis average spectrums for each synthesis trial adjusted to view 250nm to 800nm.
 ```
-These UV-Vis average spectrums show that the particles from trial to trial had a small degree of variation regarding their optical properties. The different trials do have different wavelengths at the Absorption Edge: Trial 1 was 372 ± 8 nm; Trial 2 was 377 ± 7 nm; Trial 3 was 381 ± 7 nm.
+The UV-Vis average spectrums in @Figure_12 show that the particles from trial to trial had a small degree of variation regarding their optical properties. The different trials do have different wavelengths at the Absorption Edge: Trial 1 was 372 ± 8 nm; Trial 2 was 377 ± 7 nm; Trial 3 was 381 ± 7 nm.
 ```{figure} images/average heating data.png
 :align: center
 :name: Figure_13
 
 Graph of the average heating data with a 95% confidence interval based on twenty-one trials. The graph displays the change in temperature over time of the phantom tissue with suspended nanoparticles measured manually using a spirit thermometer.
 ```
-This graph shows the data collected from the spirit thermometers regarding the change in temperature every 5 minutes over a 15 minute period. This data shows that the rotating magnetic field was strong enough to influence the particles and generate heat which was the goal for the simulation. Additional testing and experimentation will need to be conducted to make further conclusions on the temperature data.
+@Figure_13 shows the data collected from the spirit thermometers regarding the change in temperature every 5 minutes over a 15 minute period. This data shows that the rotating magnetic field was strong enough to influence the particles and generate heat which was the goal for the simulation. Additional testing and experimentation will need to be conducted to make further conclusions on the temperature data.
 ## Conclusion
 This study has been able to successfully develop a low-cost method of performing magnetic hyperthermia from start to finish (starting with particle synthesis and finishing with testing). Overall, the budget used for the procedure amounted to less than $200, with the rest of the equipment used being standard equipment that can be found in a physics or chemistry research lab like a UV-Vis spectrophotometer and a 24V power supply.
 
