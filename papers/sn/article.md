@@ -227,6 +227,7 @@ Compression methods comparison on Intel Core Ultra 5 across accuracy, size, and 
 | CIFAR-10 | Pruning (70%) | 78.03 | 9.44 | 0.836 | 1.1× |
 | CIFAR-10 | Quantization | **78.48** | 3.43 | 0.493 | 1.9× |
 | CIFAR-10 | Distillation | 77.17 | **2.37** | **0.430** | **2.1×** |
+
 Performance comparison of compression methods on Intel Core Ultra 5 platform. Four configurations tested for each dataset: baseline (no compression), pruning at 70% sparsity, post-training INT8 quantization, and knowledge distillation (4× parameter reduction). Speedup calculated relative to baseline latency on the same platform. Bold values indicate best performance for each metric.
 ```
 
