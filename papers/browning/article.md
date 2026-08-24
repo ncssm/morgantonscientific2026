@@ -25,7 +25,7 @@ The functions of these neurotransmitters were strongly dependent on their molecu
 Epinephrine includes a substituted benzene ring, two hydroxyl groups, and an ethylamine side chain. This makes it fully water soluble when protonated and nearly fully water soluble even in its neutral state. None of these molecules cross the blood-brain barrier efficiently due to their high polarity and extensive hydrogen-bonding capacities. Additionally, all three molecules form hydrogen bonds through their hydroxyl groups and bind to biological receptors through electron and functional group interactions. Together, these structural features influence solubility, reactivity, receptor specificity, and overall biological behavior.
 
 @Figure_2 depicts the basic molecular structures of
-dopamine, serotonin, and epinephrine [@sheffler_physiology_2026-1; @pubchem_dopamine_nodate; @pubchem_serotonin_nodate].
+dopamine, serotonin, and epinephrine [@sheffler_physiology_2026; @pubchem_dopamine_nodate; @pubchem_serotonin_nodate].
 
 ``` {figure} images/browning_fig_2.png
 :name: Figure_2
@@ -150,11 +150,11 @@ What made this contradiction interesting became clear when looking at the real-w
 HOMO - LUMO Gap Across Protonation and Solvation States
 ```
 
-### PCA Analysis
+### Principal Component Analysis
 
-A Principal Component Analysis (PCA) was performed to summarize multiple variables into computed ‘principal components.’ This was able to depict many of the significant variations present in the data. PCA analysis of each molecules’ measured properties confirmed that each molecule fell into a unique electronic “zone,” even before protonation. This reflects the unique structural and electronic profiles of different neurotransmitters. Once protonated, each molecule shifted in the same general direction, although the magnitude of the shift varied in each. This means that when analyzing multiple variables, meaningful trends were still present. Most importantly, this analysis revealed relationships not obvious from single-variable comparisons, yet supported by them. This provided confidence to the observations above, and indicates that previous findings were not caused by methodological error.
+A Principal Component Analysis (PCA) was performed to summarize multiple variables into computed ‘principal components.’ This was able to depict many of the significant variations present in the data. PCA of each molecule’s measured properties confirmed that each molecule fell into a unique electronic “zone,” even before protonation. This reflects the unique structural and electronic profiles of different neurotransmitters. Once protonated, each molecule shifted in the same general direction, although the magnitude of the shift varied in each. This means that when analyzing multiple variables, meaningful trends were still present. Most importantly, this analysis revealed relationships not obvious from single-variable comparisons, yet supported by them. This provided confidence to the observations above, and indicates that previous findings were not caused by methodological error.
 
-@Figure_7 shows the PCA analysis of each molecule, in both neutral and protonated forms. Variables considered in the analysis were the HOMO energy, LUMO energy, HOMO - LUMO Gap, Dipole Moment, and Polarizability values. A circle represents the molecule in its neutral state, and the square represents the molecule in its protonated state.
+@Figure_7 shows the PCA of each molecule, in both neutral and protonated forms. Variables considered in the analysis were the HOMO energy, LUMO energy, HOMO - LUMO Gap, Dipole Moment, and Polarizability values. A circle represents the molecule in its neutral state, and the square represents the molecule in its protonated state.
 
 ``` {figure} images/browning_fig_7.png
 :name: Figure_7
