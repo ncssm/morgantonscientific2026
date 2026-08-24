@@ -25,7 +25,7 @@ The functions of these neurotransmitters were strongly dependent on their molecu
 Epinephrine includes a substituted benzene ring, two hydroxyl groups, and an ethylamine side chain. This makes it fully water soluble when protonated and nearly fully water soluble even in its neutral state. None of these molecules cross the blood-brain barrier efficiently due to their high polarity and extensive hydrogen-bonding capacities. Additionally, all three molecules form hydrogen bonds through their hydroxyl groups and bind to biological receptors through electron and functional group interactions. Together, these structural features influence solubility, reactivity, receptor specificity, and overall biological behavior.
 
 @Figure_2 depicts the basic molecular structures of
-dopamine, serotonin, and epinephrine [@sheffler_physiology_2026-1; @pubchem_dopamine_nodate; @pubchem_serotonin_nodate].
+dopamine, serotonin, and epinephrine [@sheffler_physiology_2026; @pubchem_dopamine_nodate; @pubchem_serotonin_nodate].
 
 ``` {figure} images/browning_fig_2.png
 :name: Figure_2

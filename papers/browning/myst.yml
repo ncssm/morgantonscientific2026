@@ -29,3 +29,8 @@ project:
         - Investigation
         - Writing – original draft
   subject: Chemistry
+  abbreviations:
+    DFT: Density Functional Theory
+    HOMO: Highest Occupied Molecular Orbital
+    LUMO: Lowest Unoccupied Molecular Orbital
+    PCA: Principal Component Analysis
