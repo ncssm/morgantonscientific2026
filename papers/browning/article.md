@@ -150,7 +150,7 @@ What made this contradiction interesting became clear when looking at the real-w
 HOMO - LUMO Gap Across Protonation and Solvation States
 ```
 
-### PCA Analysis
+### Principal Component Analysis
 
 A Principal Component Analysis (PCA) was performed to summarize multiple variables into computed ‘principal components.’ This was able to depict many of the significant variations present in the data. PCA analysis of each molecules’ measured properties confirmed that each molecule fell into a unique electronic “zone,” even before protonation. This reflects the unique structural and electronic profiles of different neurotransmitters. Once protonated, each molecule shifted in the same general direction, although the magnitude of the shift varied in each. This means that when analyzing multiple variables, meaningful trends were still present. Most importantly, this analysis revealed relationships not obvious from single-variable comparisons, yet supported by them. This provided confidence to the observations above, and indicates that previous findings were not caused by methodological error.
 
