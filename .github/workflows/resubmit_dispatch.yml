@@ -12,6 +12,7 @@ jobs:
       kind: original
       path: papers/*
       include-unchanged: true
+      comment-title: 'Curvenote Resubmit — Papers'
     secrets:
       CURVENOTE: ${{ secrets.CURVENOTE_TOKEN }}
       GITHUB: ${{ secrets.GITHUB_TOKEN }}
@@ -24,6 +25,7 @@ jobs:
       kind: essay
       path: essays/*
       include-unchanged: true
+      comment-title: 'Curvenote Resubmit — Essays'
     secrets:
       CURVENOTE: ${{ secrets.CURVENOTE_TOKEN }}
       GITHUB: ${{ secrets.GITHUB_TOKEN }}

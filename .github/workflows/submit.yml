@@ -13,6 +13,7 @@ jobs:
       collection: '2026'
       kind: original
       path: papers/*
+      comment-title: 'Curvenote Submission — Papers'
     secrets:
       CURVENOTE: ${{ secrets.CURVENOTE_TOKEN }}
       GITHUB: ${{ secrets.GITHUB_TOKEN }}
@@ -24,6 +25,7 @@ jobs:
       collection: '2026'
       kind: essay
       path: essays/*
+      comment-title: 'Curvenote Submission — Essays'
     secrets:
       CURVENOTE: ${{ secrets.CURVENOTE_TOKEN }}
       GITHUB: ${{ secrets.GITHUB_TOKEN }}

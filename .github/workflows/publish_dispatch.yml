@@ -14,6 +14,7 @@ jobs:
       publish: true
       include-unchanged: true
       debug: true
+      comment-title: 'Curvenote Publish — Papers'
     secrets:
       CURVENOTE: ${{ secrets.CURVENOTE_TOKEN }}
       GITHUB: ${{ secrets.GITHUB_TOKEN }}
@@ -28,6 +29,7 @@ jobs:
       publish: true
       include-unchanged: true
       debug: true
+      comment-title: 'Curvenote Publish — Essays'
     secrets:
       CURVENOTE: ${{ secrets.CURVENOTE_TOKEN }}
       GITHUB: ${{ secrets.GITHUB_TOKEN }}
