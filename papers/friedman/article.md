@@ -26,7 +26,9 @@ Epigallocatechin-3-gallate (EGCG), an ester of epigallocatechin and gallic acid,
 
 ### Principle of the Thioflavine T Assay
 
-The Thioflavine T (ThT) assay is a technique used to quantify the aggregation of amyloid fibrils by measuring relative fluorescence units (RFU) over time. As the aggregates grow, the ThT dye has more binding sites and therefore causes an increase in fluorescence. This strategy for visualization can be used to measure the impact of EGCG on β-amyloid aggregation. The potential of EGCG to deaggregate amyloid fibrils over an extended period of time would have significant implications to treatment of sIBM. RESEARCH OBJECTIVES
+The Thioflavine T (ThT) assay is a technique used to quantify the aggregation of amyloid fibrils by measuring relative fluorescence units (RFU) over time. As the aggregates grow, the ThT dye has more binding sites and therefore causes an increase in fluorescence. This strategy for visualization can be used to measure the impact of EGCG on β-amyloid aggregation. The potential of EGCG to deaggregate amyloid fibrils over an extended period of time would have significant implications to treatment of sIBM.
+
+### Research Objectives
 
 This paper will investigate how EGCG impacts the aggregation kinetics of β-amyloid 25-35 *in vitro* using the ThT assay. Both preventative and reactive treatments will be tested to determine optimal concentrations of EGCG in order to make the greatest impact for sIBM patients. 
 
