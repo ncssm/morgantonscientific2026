@@ -16,6 +16,7 @@ jobs:
       kind: original
       path: papers/*
       label: draft
+      comment-title: 'Curvenote Preview — Papers'
     secrets:
       CURVENOTE: ${{ secrets.CURVENOTE_TOKEN }}
       GITHUB: ${{ secrets.GITHUB_TOKEN }}
@@ -28,6 +29,7 @@ jobs:
       kind: essay
       path: essays/*
       label: draft
+      comment-title: 'Curvenote Preview — Essays'
     secrets:
       CURVENOTE: ${{ secrets.CURVENOTE_TOKEN }}
       GITHUB: ${{ secrets.GITHUB_TOKEN }}
