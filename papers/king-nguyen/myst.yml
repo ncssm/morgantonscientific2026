@@ -2,6 +2,9 @@ version: 1
 extends:
   - ../../morganton2026.yml
 project:
+  first_page: 65
+  last_page: 75
+  doi: 10.62329/afwc5674
   id: morganton-2026-king-nguyen
   thumbnail: "images/Effect of Matcha and Sweeteners on Locomotor of D. melanogaster.png"
   title: >-

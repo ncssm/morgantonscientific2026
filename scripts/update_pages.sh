@@ -8,6 +8,32 @@ fi
 
 # Usage: ./update_pages.sh <start_page> <directory_path_1> <directory_path_2> ... <directory_path_n>
 
+# Set a page key in a myst.yml, in priority order:
+#   1. replace the value of an existing entry, keeping its indentation;
+#   2. uncomment a commented-out placeholder (e.g. the dividers' "# first_page:");
+#   3. insert a new entry directly under the top-level "project:" key.
+# Every myst.yml here has "project:" at the start of a line and indents its
+# children by two spaces, which is what case 3 assumes.
+set_page_key() {
+    local yaml_file=$1
+    local key=$2
+    local value=$3
+
+    if grep -qE "^[[:space:]]*${key}:" "$yaml_file"; then
+        sed -i.bak -E "s/^([[:space:]]*)${key}:.*/\1${key}: ${value}/" "$yaml_file"
+    elif grep -qE "^[[:space:]]*#[[:space:]]*${key}:" "$yaml_file"; then
+        sed -i.bak -E "s/^([[:space:]]*)#[[:space:]]*${key}:.*/\1${key}: ${value}/" "$yaml_file"
+    elif grep -qE "^project:" "$yaml_file"; then
+        awk -v key="$key" -v value="$value" '
+            { print }
+            !inserted && /^project:[[:space:]]*$/ { print "  " key ": " value; inserted = 1 }
+        ' "$yaml_file" > "${yaml_file}.tmp" && mv "${yaml_file}.tmp" "$yaml_file"
+    else
+        echo "Error: no top-level 'project:' key in '$yaml_file'. Cannot set $key."
+        return 1
+    fi
+}
+
 current_page=$1  # First argument is the start page
 shift            # Shift to remove the first argument, so now $@ contains the list of directories
 
@@ -59,18 +85,13 @@ for BASE_DIR in "$@"; do
         last_page=$((current_page + num_pages - 1))
         current_page=$((current_page + num_pages))
 
-        # Update first_page and last_page if they exist in the YAML
+        # Update first_page and last_page, adding them if they are missing
         echo "Processing $pdf_file in $yaml_file: first_page=$first_page, last_page=$last_page"
 
-        # Update first_page only if it exists
-        if grep -q "first_page:" "$yaml_file"; then
-            sed -i.bak "s/first_page: [0-9]*/first_page: $first_page/" "$yaml_file"
-        fi
-
-        # Update last_page only if it exists
-        if grep -q "last_page:" "$yaml_file"; then
-            sed -i.bak "s/last_page: [0-9]*/last_page: $last_page/" $yaml_file
-        fi
+        # last_page first: each inserted key goes directly under "project:", so
+        # setting it first leaves the pair in first_page/last_page order.
+        set_page_key "$yaml_file" last_page "$last_page"
+        set_page_key "$yaml_file" first_page "$first_page"
 
         echo "YAML file '$yaml_file' in folder '$folder' updated successfully!"
     done

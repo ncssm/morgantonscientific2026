@@ -3,6 +3,9 @@ version: 1
 extends:
   - ../../morganton2026.yml
 project:
+  first_page: 125
+  last_page: 129
+  doi: 10.62329/mwwg4585
   id: morganton-2026-selvakumar
   thumbnail: "images/Figure 1.png"
   title: Effects of Probiotic Yogurt Cultures from Dahi on Dextrose-Induced Type 2 Diabetic-like Symptoms in Caenorhabditis elegans

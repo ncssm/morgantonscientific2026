@@ -17,9 +17,11 @@
   background: none,
 )
 
+[# if doc.first_page #]
 #context [
   #counter(page).update([-doc.first_page-])
 ]
+[# endif #]
 
 #align(center)[
   #v(14em)

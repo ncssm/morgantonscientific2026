@@ -3,6 +3,9 @@ version: 1
 extends:
   - ../../morganton2026.yml
 project:
+  first_page: 76
+  last_page: 81
+  doi: 10.62329/twvv4958
   id: morganton-2026-patel1
   thumbnail: "../../templates/ncssm-preface/logo.png"
   title: Generalization Failures in AI-Based Leukemia Detection

@@ -29,4 +29,3 @@ options:
     required: true
 doc:
   - id: first_page
-    required: true

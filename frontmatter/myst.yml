@@ -19,7 +19,6 @@ project:
       affiliation: ncssm
     - name: Alex Qu
       affiliation: ncssm
-  # TODO(2026): front-matter DOI must be minted (2025 value was 10.62329/dwgm3685)
   downloads:
     - title: Download Full PDF
       format: pdf

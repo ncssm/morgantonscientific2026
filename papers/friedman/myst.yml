@@ -2,10 +2,13 @@ version: 1
 extends:
   - ../../morganton2026.yml
 project:
+  first_page: 36
+  last_page: 43
+  doi: 10.62329/rvgg4448
   id: morganton-2026-friedman
   thumbnail: "images/24 hr RFU vs Time (FS).png"
   title: >-
-    Effects of Epigallocatechin-3-gallate on Β-amyloid (25-35) Aggregation: an Application to Sporadic Inclusion Body Myositis
+    Effects of Epigallocatechin-3-gallate on β-amyloid (25-35) Aggregation: an Application to Sporadic Inclusion Body Myositis
   description: >-
     Sporadic inclusion body myositis is marked by beta-amyloid aggregates in muscle tissue.
     Epigallocatechin-3-gallate was purified from green tea leaves, confirmed by FTIR, and tested

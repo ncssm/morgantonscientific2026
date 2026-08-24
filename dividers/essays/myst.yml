@@ -1,9 +1,9 @@
 # See docs at: https://mystmd.org/guide/frontmatter
 version: 1
 project:
+  last_page: 6
   title: Essays
-  # TODO(2026): set after the PDF build; 2025 value was 26
-  # first_page:
+  first_page: 6
   exports:
     - format: typst
       template: ../../templates/ncssm-divider

@@ -3,6 +3,9 @@ version: 1
 extends:
   - ../../morganton2026.yml
 project:
+  first_page: 117
+  last_page: 124
+  doi: 10.62329/ngmh3443
   id: morganton-2026-rivera
   thumbnail: "images/rivera_fig_1.png"
   title: "Investigating the Therapeutic Potential of Ficus carica (Fig) Leaf Extract for Huntington's Disease Treatment in Drosophila melanogaster (Fruit Fly) Model"
