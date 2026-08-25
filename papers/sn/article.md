@@ -144,7 +144,7 @@ The framework enabled a comprehensive assessment of neural network compression t
 
 ## Results
 
-### 3.1 Baseline Model Performance
+### Baseline Model Performance
 
 ```{figure} images/fig4.png
 :name: fig4
@@ -173,7 +173,7 @@ Test accuracy remained highly consistent across platforms. For MNIST, accuracy r
 
 Inference latency measurements revealed substantial platform differences (@fig4). The Intel Core Ultra 5 achieved the fastest inference: 0.160 ms/image for MNIST and 0.923 ms/image for CIFAR-10. This represented 3.5× and 3.0× speedup compared to the Google Colab NVIDIA T4 GPU (0.565 ms and 2.733 ms, respectively). The Lenovo ThinkCentre i5-8400 demonstrated comparable performance to the cloud GPU, achieving 0.202 ms and 0.900 ms for MNIST and CIFAR-10, representing 2.8× and 3.0× speedup over Colab. Model size remained constant at 1.61 MB (MNIST) and 9.44 MB (CIFAR-10) across all platforms.
 
-### 3.2 Magnitude-Based Pruning Results
+### Magnitude-Based Pruning Results
 ```{figure} images/fig5.png
 :name: fig5
 :align: center
@@ -187,7 +187,7 @@ CIFAR-10 models showed markedly different behavior (@fig5). Accuracy remained st
 
 Pruned models showed modest latency improvements. On Intel Core Ultra 5, CIFAR-10 latency improved from 0.923 ms (baseline) to 0.836 ms (70% pruned). The Lenovo ThinkCentre showed larger gains: 0.900 ms to 0.665 ms (70% pruned), a 1.4× speedup. Model file sizes remained unchanged at 1.61 MB (MNIST) and 9.44 MB (CIFAR-10) across all sparsity levels, as PyTorch's serialization does not implement sparse storage; computational benefits arise from reduced arithmetic operations, not storage reduction.
 
-### 3.3 Post-Training INT8 Quantization
+### Post-Training INT8 Quantization
 ```{figure} images/fig6.png
 :name: fig6
 :align: center
@@ -200,7 +200,7 @@ Quantization maintained or improved test accuracy across all configurations. MNI
 
 Inference speedup from quantization varied significantly by platform (@fig6). Google Colab achieved 2.08× speedup for MNIST and 1.48× for CIFAR-10. The Intel Core Ultra 5 showed different patterns: 1.18× for MNIST and 1.87× for CIFAR-10. Notably, CIFAR-10 quantization speedup on Core Ultra 5 (1.87×) exceeded the cloud GPU (1.48×), despite the laptop already being 3× faster at baseline. The Lenovo ThinkCentre achieved intermediate speedups of 1.23× (MNIST) and 1.42× (CIFAR-10).
 
-### 3.4 Knowledge Distillation with Reduced-Size Students
+### Knowledge Distillation with Reduced-Size Students
 
 Student models with 50% reduced channel dimensions contained approximately 4× fewer parameters than teachers: 105,866 parameters (MNIST) and 620,362 parameters (CIFAR-10). Serialized student models occupied 0.40 MB (MNIST) and 2.37 MB (CIFAR-10), representing 4.0× compression ratios.
 
@@ -208,7 +208,7 @@ Knowledge distillation successfully transferred knowledge with minimal accuracy 
 
 Student models achieved the fastest inference of all methods tested. On Lenovo ThinkCentre, MNIST students completed inference in 0.074 ms/image (7.63× faster than cloud GPU baseline), while CIFAR-10 students achieved 0.261 ms/image (10.48× speedup). On Intel Core Ultra 5, students achieved 0.117 ms (MNIST) and 0.430 ms (CIFAR-10), representing 4.83× and 6.36× speedups. Even on cloud GPU, students achieved 4.72× (MNIST) and 4.34× (CIFAR-10) speedups, exceeding the 4× parameter reduction ratio.
 
-### 3.5 Comprehensive Performance Comparison
+### Comprehensive Performance Comparison
 ```{figure} images/fig7.png
 :name: fig7
 :align: center
@@ -248,13 +248,13 @@ Three distinct compression strategies emerged: (1) maximum accuracy preservation
 
 ## Discussion
 
-### 4.1 Added Neural Processing Architecture Provides Superior Inference Performance
+### Added Neural Processing Architecture Provides Superior Inference Performance
 
 Our results demonstrate that Intel Core Ultra 5 NPU-enabled processors achieve 3× faster inference than NVIDIA T4 cloud GPUs for baseline models, challenging conventional assumptions about optimal inference infrastructure. Several architectural factors likely contribute to this advantage. First, the Core Ultra 5 integrates a dedicated Neural Processing Unit explicitly designed for inference workloads, with specialized hardware for efficient matrix operations. Second, on-device inference eliminates network latency and data transfer overhead inherent in cloud deployments. Third, tight integration between CPU, NPU, and memory in the Core Ultra architecture may provide superior memory bandwidth compared to discrete GPU configurations.
 
 The comparable performance of the legacy i5-8400 CPU is particularly noteworthy, as this 2017 processor predates the 2018 T4 GPU yet achieves matching performance. This suggests that CPU architectures, even from several years ago, provide competitive inference performance for small-to-medium models. Modern CPUs have substantially closed the performance gap with GPUs through architectural optimizations including wider vector units, improved prefetching, and better branch prediction. The fact that a consumer-grade desktop CPU from 2017 matches a 2018 datacenter GPU highlights that specialized AI accelerators are not always necessary for efficient inference.
 
-### 4.2 Quantization Shows Platform-Dependent Acceleration
+### Quantization Shows Platform-Dependent Acceleration
 
 A key finding is that quantization provides disproportionate speedup on NPU hardware compared to cloud GPUs. For CIFAR-10, quantization achieved 1.87× speedup on Core Ultra 5 versus only 1.48× on T4 GPU—a 26% larger acceleration despite the NPU already being 3× faster at baseline. This disparity reveals fundamental architectural differences in low-precision operation handling.
 
@@ -262,7 +262,7 @@ NPUs are explicitly designed for efficient INT8 computation, with dedicated exec
 
 The slight accuracy improvements with quantization (MNIST: +0.22%, CIFAR-10: +0.32%) are consistent with prior work showing that reduced precision can provide regularization effects. However, this effect is model and dataset dependent and should not be assumed universal.
 
-### 4.3 Task Complexity Determines Pruning Tolerance
+### Task Complexity Determines Pruning Tolerance
 
 The dramatically different pruning tolerance between MNIST and CIFAR-10 reveals task complexity as a critical factor in determining viable compression levels. MNIST maintained full accuracy through 70% pruning, while CIFAR-10 experienced catastrophic degradation at 90% sparsity (19.2 percentage point drop).
 
@@ -270,19 +270,19 @@ This difference likely reflects classification task complexity. MNIST digit reco
 
 The 50–70% pruning range appears universally safe for both tasks, suggesting this as a conservative starting point for pruning experiments on novel datasets or architectures. The sharp CIFAR-10 degradation at 90% indicates a critical threshold where the network loses capacity to maintain learned representations.
 
-### 4.4 Legacy Hardware Remains Useful with Model Compression
+### Legacy Hardware Remains Useful with Model Compression
 
 The exceptional performance of the Intel Core i5-8400 CPU with compressed models (achieving 10.48× speedup over cloud GPUs for CIFAR-10 student models) has important practical implications. Organizations with existing CPU infrastructure may not need specialized AI accelerators for deploying compressed models. This finding is particularly significant for cost-sensitive deployments, educational settings, or developing regions where modern NPU-enabled hardware remains inaccessible.
 
 However, this advantage applies specifically to small, compressed models. Larger models (ResNet, Vision Transformers) or higher-throughput scenarios (batch inference, real-time video processing) would likely still benefit from specialized accelerators. The desktop CPU advantage emerges from efficient cache utilization with small models; student models fit entirely in L2/L3 cache, enabling extremely fast inference through elimination of memory bandwidth bottlenecks.
 
-### 4.5 Practical Deployment Recommendations
+### Practical Deployment Recommendations
 
 Based on our findings, we propose platform-specific deployment guidelines. For NPU-enabled devices (Intel Core Ultra series), INT8 quantization provides optimal balance: 5.5× total speedup, maintained accuracy, and 3× size reduction. Alternatively, knowledge distillation maximizes speed and minimizes size. Pruning should be used conservatively (50–70%) in combination with other methods rather than standalone.
 
 For legacy CPU hardware, knowledge distillation is the primary recommendation, providing up to 10× speedup for small student models. Quantization serves as a secondary option for moderate speedup and size reduction. For cloud deployment scenarios, organizations should reconsider edge deployment, as local NPU inference is 3–6× faster. When cloud deployment is required, quantization still provides cost and latency reduction benefits.
 
-### 4.6 Limitations and Future Directions
+### Limitations and Future Directions
 
 This study has several limitations suggesting future research directions. First, we evaluated only simple CNN architectures; larger models (ResNet, EfficientNet, Vision Transformers, LLMs) may exhibit different compression-hardware interactions. Modern architectures with residual connections, attention mechanisms, or neural architecture search may respond differently to compression on NPU hardware.
 
@@ -290,7 +290,7 @@ Second, only image classification on MNIST and CIFAR-10 was tested. Other domain
 
 Fourth, compression techniques were tested independently. Future work should explore combinations (e.g., pruning + quantization, or quantization + distillation) that may provide multiplicative benefits. Fifth, laboratory benchmarks may not capture real-world complexities including batch size variation, mixed-precision requirements, or thermal throttling under sustained load.
 
-### 4.7 Broader Implications for AI Deployment
+### Broader Implications for AI Deployment
 
 Our findings suggest a potential pattern shift in AI deployment strategy. The historical assumption that cloud-based GPU infrastructure provides optimal inference performance may no longer hold for modern edge devices with specialized AI accelerators. This has implications across multiple dimensions.
 
