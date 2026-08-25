@@ -1,12 +1,16 @@
-- title: 'Words from the Editors'
+- title: 'Foreword'
+  page: 4
+- title: 'Morganton Scientific Editors’ Note'
   page: 5
 - title: 'Essays'
   page: 6
+  divider: true
 - title: 'Personal Identity and Mind Uploading: A Cartesian Analysis'
   author: 'Asmi Godbole'
   page: 7
 - title: 'Papers'
   page: 10
+  divider: true
 - title: 'From Brain Chemistry to Computational Chemistry: Modeling Protonation and Solvation Effects on Major Neurotransmitters'
   author: 'Lexie Browning'
   page: 11
@@ -48,4 +52,4 @@
   page: 130
 - title: 'Exercise-based Interventions in Parkinson''s Disease: A Pilot Study'
   author: 'Carter Stephan'
-  page: 147
+  page: 146

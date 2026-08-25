@@ -1,5 +1,5 @@
 # Write initial papers.yml with no page numbers
-bash ./generate_summary.sh ../templates/ncssm-preface/papers.yml 0 ../dividers/essays ../essays/* ../dividers/papers ../papers/*
+bash ./generate_summary.sh ../templates/ncssm-preface/papers.yml 0 0 ../dividers/essays ../essays/* ../dividers/papers ../papers/*
 # Generate frontmatter PDF (with invalid page numbers) to get it's page count
 cd ../frontmatter
 myst build --pdf
@@ -15,6 +15,9 @@ fi
 # page count. The last printed page of the frontmatter is the editors note, and
 # the articles carry on from there.
 editors_page=$((frontmatter_pages - 1))
+# The foreword is the page before the editors note. Both are single pages; if
+# either ever runs longer, these need recomputing rather than assuming.
+foreword_page=$((frontmatter_pages - 2))
 start_page=$frontmatter_pages
 # Generate article PDFs with maybe wrong page numbers
 for folder in $( ls -d -1 ../essays/* ../papers/* ../dividers/* ); do
@@ -31,7 +34,7 @@ for folder in $( ls -d -1 ../essays/* ../papers/* ../dividers/* ); do
  cd ../../scripts
 done
 # Write frontmatter page number summary, now that the articles are paginated
-bash ./generate_summary.sh ../templates/ncssm-preface/papers.yml $editors_page ../dividers/essays ../essays/* ../dividers/papers ../papers/*
+bash ./generate_summary.sh ../templates/ncssm-preface/papers.yml $foreword_page $editors_page ../dividers/essays ../essays/* ../dividers/papers ../papers/*
 # Re-generate frontmatter PDF with the real page numbers
 cd ../frontmatter
 myst build --pdf

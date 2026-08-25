@@ -1,10 +1,11 @@
 #!/bin/bash
 
-# Usage: ./generate_summary.sh <output_file> <editors_page> <directory_path_1> ... <directory_path_n>
+# Usage: ./generate_summary.sh <output_file> <foreword_page> <editors_page> <dir_1> ... <dir_n>
 
 OUTPUT_FILE=$1
-EDITORS_PAGE=$2
-shift 2         # Shift to remove the first two arguments, leaving the base directories
+FOREWORD_PAGE=$2
+EDITORS_PAGE=$3
+shift 3         # Shift past the fixed arguments, leaving the base directories
 
 # Reads title, author names and first_page out of a myst.yml and writes one
 # table of contents entry. Handles the frontmatter styles used in this repo:
@@ -73,9 +74,16 @@ read_entry() {
     ' "$1"
 }
 
-# Initialize the summary output file. The editors note is the last page of the
-# frontmatter, so make_pdfs.sh passes that page number in.
-echo "- title: 'Words from the Editors'" > "$OUTPUT_FILE"
+# Initialize the summary output file with the two frontmatter sections. Unlike
+# the articles, these are two sections of a single document rather than two
+# folders, so there is no per-section myst.yml to read a title and page from —
+# make_pdfs.sh measures the frontmatter PDF and passes both page numbers in.
+#
+# These titles must match the headings in frontmatter/article.md. If a heading
+# is reworded, reword it here too; nothing checks them against each other.
+echo "- title: 'Foreword'" > "$OUTPUT_FILE"
+echo "  page: ${FOREWORD_PAGE:-0}" >> "$OUTPUT_FILE"
+echo "- title: 'Morganton Scientific Editors’ Note'" >> "$OUTPUT_FILE"
 echo "  page: ${EDITORS_PAGE:-0}" >> "$OUTPUT_FILE"
 
 # Iterate over all provided base directories
@@ -100,6 +108,14 @@ for BASE_DIR in "$@"; do
 
         # Extract the entry fields from YAML and write them to the summary file
         read_entry "$yaml_file" >> "$OUTPUT_FILE"
+
+        # Mark the section dividers. The preface template renders these as bold
+        # headings with no page number, and everything else as a listed entry.
+        # It used to tell them apart by asking whether the title contained a
+        # space, which broke the moment a real entry had a one-word title.
+        case "$BASE_DIR" in
+            */dividers/*) echo "  divider: true" >> "$OUTPUT_FILE" ;;
+        esac
     done
 done
 
