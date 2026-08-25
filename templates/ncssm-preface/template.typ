@@ -73,7 +73,7 @@
     block(
       breakable: false,
       [
-        #if (paper.title.contains(regex(" "))) {
+        #if ("divider" not in paper) {
           table(
             columns: (35pt, auto),
             inset: 0em,

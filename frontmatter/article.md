@@ -50,7 +50,7 @@ North Carolina School of Science and Mathematics
 #pagebreak()
 ```
 
-# Morganton Scientific Editors’ Note
+# A Note from the Editors
 
 ```{raw:typst}
 #v(3em)
