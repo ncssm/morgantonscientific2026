@@ -3,7 +3,7 @@ extends:
   - ../../morganton2026.yml
 project:
   first_page: 130
-  last_page: 146
+  last_page: 145
   doi: 10.62329/jgwp4527
   id: morganton-2026-sn
   thumbnail: "images/fig2.png"
