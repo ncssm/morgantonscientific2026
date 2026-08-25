@@ -83,7 +83,7 @@ read_entry() {
 # is reworded, reword it here too; nothing checks them against each other.
 echo "- title: 'Foreword'" > "$OUTPUT_FILE"
 echo "  page: ${FOREWORD_PAGE:-0}" >> "$OUTPUT_FILE"
-echo "- title: 'Morganton Scientific Editors’ Note'" >> "$OUTPUT_FILE"
+echo "- title: 'A Note from the Editors'" >> "$OUTPUT_FILE"
 echo "  page: ${EDITORS_PAGE:-0}" >> "$OUTPUT_FILE"
 
 # Iterate over all provided base directories
