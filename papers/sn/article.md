@@ -57,7 +57,7 @@ All datasets were accessed using the torchvision.datasets module. Preprocessing 
 Training and testing datasets were loaded into PyTorch DataLoader objects with a batch size of 128, with shuffling enabled for the training sets. These loaders ensured efficient mini-batch processing and randomization during model training, which thereby reduced potential biases and improved convergence.
 ### Baseline Models
  
-```{figure} images/fig1.png
+```{figure} images/fig2.png
 :name: fig1
 :align: center
 Baseline model architectures. (A) SimpleMNIST: 421,642 parameters, 1.61 MB. (B) SimpleCIFAR: 2,473,610 parameters, 9.44 MB. Both models follow standard CNN architectures with convolutional blocks, pooling layers, and fully connected classifiers.
@@ -71,7 +71,7 @@ All convolutional layers utilized ReLU activation functions and max-pooling oper
 The baseline models were deployed on all three computing environments to record reference performance metrics, including test accuracy, model size, and per-image inference latency. These metrics served as control data for comparison with compressed models.
 
 ### Compression Techniques
-```{figure} images/fig2.png
+```{figure} images/fig3.png
 :name: fig2
 :align: center
 Neural network compression methods pipeline. Three independent compression approaches were applied to baseline FP32 models: magnitude-based pruning, post-training INT8 quantization, and knowledge distillation. Each method offers distinct trade-offs between model size, computational efficiency, and accuracy preservation.
@@ -97,7 +97,7 @@ Quantization was performed on CPU-only backends across all three platforms, enab
 
 #### Knowledge Distillation
 
-```{figure} images/fig3.png
+```{figure} images/fig4.png
 :name: fig3
 :align: center
 Knowledge distillation architecture comparison for MNIST.__ Student model (right) uses 50% reduced channel dimensions compared to teacher (left), resulting in 4× parameter reduction (421,642 → 105,866) and 4× size reduction (1.61 MB → 0.40 MB) while maintaining 99.08% accuracy.
@@ -146,7 +146,7 @@ The framework enabled a comprehensive assessment of neural network compression t
 
 ### Baseline Model Performance
 
-```{figure} images/fig4.png
+```{figure} images/fig1.png
 :name: fig4
 :align: center
 Baseline inference latency comparison across hardware platforms. Intel Core Ultra 5 achieved 3.5× (MNIST) and 3.0× (CIFAR-10) speedup compared to Google Colab NVIDIA T4 GPU. Legacy desktop CPU (i5-8400) matched or exceeded cloud GPU performance.
@@ -174,7 +174,7 @@ Test accuracy remained highly consistent across platforms. For MNIST, accuracy r
 Inference latency measurements revealed substantial platform differences (@fig4). The Intel Core Ultra 5 achieved the fastest inference: 0.160 ms/image for MNIST and 0.923 ms/image for CIFAR-10. This represented 3.5× and 3.0× speedup compared to the Google Colab NVIDIA T4 GPU (0.565 ms and 2.733 ms, respectively). The Lenovo ThinkCentre i5-8400 demonstrated comparable performance to the cloud GPU, achieving 0.202 ms and 0.900 ms for MNIST and CIFAR-10, representing 2.8× and 3.0× speedup over Colab. Model size remained constant at 1.61 MB (MNIST) and 9.44 MB (CIFAR-10) across all platforms.
 
 ### Magnitude-Based Pruning Results
-```{figure} images/fig5.png
+```{figure} images/fig6.png
 :name: fig5
 :align: center
 Accuracy versus pruning level reveals task-dependent tolerance. MNIST maintained accuracy through 70% sparsity (green safe zone), while CIFAR-10 experienced catastrophic degradation at 90% pruning (19.2 percentage point drop).
@@ -188,7 +188,7 @@ CIFAR-10 models showed markedly different behavior (@fig5). Accuracy remained st
 Pruned models showed modest latency improvements. On Intel Core Ultra 5, CIFAR-10 latency improved from 0.923 ms (baseline) to 0.836 ms (70% pruned). The Lenovo ThinkCentre showed larger gains: 0.900 ms to 0.665 ms (70% pruned), a 1.4× speedup. Model file sizes remained unchanged at 1.61 MB (MNIST) and 9.44 MB (CIFAR-10) across all sparsity levels, as PyTorch's serialization does not implement sparse storage; computational benefits arise from reduced arithmetic operations, not storage reduction.
 
 ### Post-Training INT8 Quantization
-```{figure} images/fig6.png
+```{figure} images/fig7.png
 :name: fig6
 :align: center
 Quantization speedup varies by hardware platform. Intel Core Ultra 5 showed larger quantization benefit for CIFAR-10 (1.87× speedup) compared to cloud GPU (1.48× speedup), suggesting NPU optimization for low-precision operations.
@@ -209,7 +209,7 @@ Knowledge distillation successfully transferred knowledge with minimal accuracy 
 Student models achieved the fastest inference of all methods tested. On Lenovo ThinkCentre, MNIST students completed inference in 0.074 ms/image (7.63× faster than cloud GPU baseline), while CIFAR-10 students achieved 0.261 ms/image (10.48× speedup). On Intel Core Ultra 5, students achieved 0.117 ms (MNIST) and 0.430 ms (CIFAR-10), representing 4.83× and 6.36× speedups. Even on cloud GPU, students achieved 4.72× (MNIST) and 4.34× (CIFAR-10) speedups, exceeding the 4× parameter reduction ratio.
 
 ### Comprehensive Performance Comparison
-```{figure} images/fig7.png
+```{figure} images/fig8.png
 :name: fig7
 :align: center
 Compression methods comparison on Intel Core Ultra 5 across accuracy, size, and latency metrics. Quantization achieved best accuracy for CIFAR-10 (78.48%), while knowledge distillation provided the smallest size (0.40/2.37 MB) and fastest inference (0.117/0.430 ms).
@@ -233,7 +233,7 @@ Performance comparison of compression methods on Intel Core Ultra 5 platform. Fo
 ```
 
 @fig7 and @Table_2 provide a detailed Core Ultra 5 comparison across accuracy, size, and latency. For MNIST, all methods maintained >99% accuracy. Quantization and distillation achieved the smallest sizes (0.46 MB and 0.40 MB), while distillation achieved fastest inference (0.117 ms). For CIFAR-10, quantization achieved highest accuracy (78.48%), while distillation achieved smallest size (2.37 MB) and fastest inference (0.430 ms).
-```{figure} images/fig8.png
+```{figure} images/fig5.png
 :name: fig8
 :align: center
 Comprehensive speedup analysis relative to cloud GPU baseline. Maximum speedups: 7.63× (MNIST student, i5-8400) and 10.48× (CIFAR-10 student, i5-8400). Color intensity indicates speedup magnitude.
