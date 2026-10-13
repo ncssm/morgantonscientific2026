@@ -433,8 +433,18 @@ does this by hand.
    cd frontmatter && curvenote submit ncssm-mor
    ```
 
-   It finds the existing volume submission by `project.id` (`morganton-2026-vol-3`), asks for
-   confirmation, and submits a new version.
+   It finds the existing volume submission by `project.id` (`morganton-2026-vol-3`) and asks two
+   questions:
+
+   - *Update your submission … based on the contents of your local folder?* Answer yes.
+   - *Build and submission checks completed, are you happy to proceed?* Answer yes. Only **4 of 16
+     checks pass**, and that's expected. The volume kind runs the article checks (abstract,
+     keywords, corresponding author, ORCID, CRediT), none of which the frontmatter has, and
+     Volume 3's earlier versions went in the same way.
+
+   On success it prints `Your submission was successfully updated` and a build report URL. Run it
+   in a real terminal: the prompts need someone to answer them, and with no input attached the
+   CLI either crashes or sits waiting with no visible output.
 5. **Publish it** — press the button in the SCMS dashboard, or run
    `curvenote submission publish ncssm-mor` from `frontmatter/`.
 6. **Replace the copy on the GitHub release** so the archive matches the site:
@@ -454,6 +464,9 @@ Things to watch for:
 - **`curvenote submission list` shows nothing, even with the service-account token.** That doesn't
   mean the volume entry is missing; check the [volumes page](https://morgantonscientific.ncssm.edu/volumes)
   instead.
+- **A `REVOKED` / `403` token error can be transient.** In October 2026 a working token reported
+  `REVOKED` once, while the SCMS dashboard still listed it as active, and `curvenote token check`
+  returned `VERIFIED` again a few minutes later. Recheck before you generate a new one.
 - **The publish date may default to today.** `curvenote submission publish --help` says the
   publish date is today unless you pass `--date`, which on its own uses the frontmatter date
   (`2026-09-01` in `volume.yml`). Untested: check after publishing that the volume still shows
